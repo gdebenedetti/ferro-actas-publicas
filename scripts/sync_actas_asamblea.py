@@ -391,7 +391,7 @@ def classify_kind(title: str, categories: set[int]) -> str:
 
 def build_note(title: str, slug: str, kind: str) -> str:
     if kind == "asamblea-acta" and "25-09-2022" in title and "26-09-2021" in slug:
-        return "El título visible y el enlace no coinciden; conviene revisar el PDF."
+        return "La referencia visible no coincide con el archivo; conviene revisar el PDF."
     if kind == "asamblea-balance":
         return "Balance asociado a la asamblea."
     if kind == "asamblea-convocatoria":
@@ -841,6 +841,7 @@ def write_index(records: list[PdfRecord], outdir: Path) -> None:
         "",
         "## Qué conviene saber",
         "- Cuando una publicación tiene varias partes, cada archivo aparece por separado.",
+        "- La columna Referencia usa rótulos cortos y legibles para identificar cada publicación.",
     ]
     summary_lines = build_summary_lines(records)
     if summary_lines:
@@ -873,20 +874,27 @@ def format_record_line(record: PdfRecord) -> str:
 
 def format_reference(record: PdfRecord) -> str:
     code = extract_local_code(record.local_file)
-    if not code:
-        return record.reference
+
+    if record.kind == "asamblea-tutorial":
+        return "Material de apoyo"
 
     match = re.fullmatch(r"p(\d{3})-a(\d{3})", code, re.IGNORECASE)
     if match:
-        return f"Período {int(match.group(1))} · Acta {int(match.group(2))}"
+        return prefix_reference("Asamblea", f"Período {int(match.group(1))} · Acta {int(match.group(2))}")
 
     match = re.fullmatch(r"p(\d{3})", code, re.IGNORECASE)
     if match:
-        return f"Período {int(match.group(1))}"
+        return prefix_reference("Asamblea", f"Período {int(match.group(1))}")
 
     match = re.fullmatch(r"ej(\d{3})", code, re.IGNORECASE)
     if match:
-        return f"Ejercicio {int(match.group(1))}"
+        return prefix_reference("Balance", f"Ejercicio {int(match.group(1))}")
+
+    if record.kind == "asamblea-balance":
+        for candidate in (record.title, record.slug, record.pdf_url):
+            exact_date = extract_exact_date(candidate)
+            if exact_date:
+                return prefix_reference("Balance", format_iso_date(exact_date))
 
     match = re.fullmatch(r"(ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic)-(\d{4})", code, re.IGNORECASE)
     if match:
@@ -904,20 +912,56 @@ def format_reference(record: PdfRecord) -> str:
             "nov": "Noviembre",
             "dic": "Diciembre",
         }.get(match.group(1).lower(), match.group(1).upper())
-        return f"{month_name} {match.group(2)}"
+        return prefix_reference("Balance" if record.kind == "asamblea-balance" else "Asamblea", f"{month_name} {match.group(2)}")
 
     match = re.fullmatch(r"conv-(\d{4})", code, re.IGNORECASE)
     if match:
-        return f"Convocatoria {match.group(1)}"
+        return prefix_reference("Convocatoria", match.group(1))
 
     match = re.fullmatch(r"(\d{4}-\d{4})", code)
     if match:
-        return f"Ejercicio {match.group(1)}"
+        return prefix_reference("Balance", f"Ejercicio {match.group(1)}")
+
+    if record.reference:
+        if record.kind == "asamblea-acta":
+            return prefix_reference("Asamblea", record.reference)
+        if record.kind == "asamblea-balance":
+            return prefix_reference("Balance", record.reference)
+        if record.kind == "asamblea-convocatoria":
+            return prefix_reference("Convocatoria", record.reference)
+        if record.kind == "asamblea-related":
+            return prefix_reference("Documento vinculado", record.reference)
+        return record.reference
 
     if code.lower().startswith("tutorial"):
         return "Material de apoyo"
 
-    return record.reference or code.replace("-", " ").title()
+    if record.kind == "asamblea-acta":
+        return prefix_reference("Asamblea", code.replace("-", " ").title())
+    if record.kind == "asamblea-balance":
+        return prefix_reference("Balance", code.replace("-", " ").title())
+    if record.kind == "asamblea-convocatoria":
+        return prefix_reference("Convocatoria", code.replace("-", " ").title())
+    if record.kind == "asamblea-related":
+        return prefix_reference("Documento vinculado", code.replace("-", " ").title())
+    return code.replace("-", " ").title()
+
+
+def prefix_reference(prefix: str, value: str) -> str:
+    value = value.strip()
+    if not value:
+        return prefix
+    if value.lower().startswith(prefix.lower()):
+        return value
+    return f"{prefix} · {value}"
+
+
+def format_iso_date(date_text: str) -> str:
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", date_text)
+    if not match:
+        return date_text
+    year, month, day = match.groups()
+    return f"{day}/{month}/{year}"
 
 
 def friendly_kind_label(kind: str) -> str:
