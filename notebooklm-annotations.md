@@ -12,6 +12,15 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 - Este archivo solo documenta una parte de las fuentes ya verificadas.
 - Pendiente: seguir agregando fichas y metadata ampliada para el resto de las actas, balances y documentos de apoyo.
 
+## Corte actual
+
+- Fichas detalladas creadas: 3.
+- Fuentes ya fichadas:
+  - `2025-12-26 CD P101-S025`
+  - `2026-01-29 CD P101-S026`
+  - `2025-09-28 Asamblea Sep 2025`
+- Todo el resto del corpus sigue pendiente de ficha detallada, aunque ya quedo cargado y etiquetado en NotebookLM.
+
 ## 2025-12-26 CD P101-S025
 
 - Archivo: `actas-cd/2025-12-26__cd-acta__p101-s025.pdf`
