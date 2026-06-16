@@ -14,6 +14,13 @@ Este repositorio reúne documentos públicos de Ferrocarril Oeste, ordenados par
 - Cada carpeta agrupa documentos por tipo.
 - Los nombres de archivo usan fecha y una referencia corta.
 - Los `index.md` resumen qué hay en cada carpeta y señalan faltantes o particularidades.
+- Cuando un documento menciona un `Ejercicio`, se interpreta como un ciclo de dos años y se puede leer como `E### (AAAA/AAAA)`. Ejemplo: `E119 (2022/2023)`.
+
+## NotebookLM
+
+- La notebook de trabajo es `Ferro Actas Publicas`.
+- La metadata de apoyo y el estado de procesamiento quedan en `notebooklm-context.md` y `notebooklm-annotations.md`.
+- El criterio aplicado en NotebookLM busca mantener separados actas, balances, convocatorias, tutoriales e indices.
 
 ## Para qué sirve
 
