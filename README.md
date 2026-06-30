@@ -113,6 +113,11 @@ npm run dev
 
 Ver [`ferro-en-accion-web/README.md`](./ferro-en-accion-web/README.md) para build y deploy.
 
+### Guía local del subproyecto
+
+- El subproyecto tiene sus propias reglas de edición en [`ferro-en-accion-web/AGENTS.md`](./ferro-en-accion-web/AGENTS.md).
+- Usar ese archivo cuando la tarea toque contenido, SEO, navegación, build o despliegue del sitio.
+
 ## Para qué sirve este repo
 
 - Consultar documentos históricos del club de forma ordenada.
