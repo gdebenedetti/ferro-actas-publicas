@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+
+# Local verification artifacts
+.playwright-mcp/
+ferro-mobile-*.png
+
+# Embedded subproject repository
+ferro-en-accion-web/
