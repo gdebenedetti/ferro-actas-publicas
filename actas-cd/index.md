@@ -16,7 +16,7 @@ En la secuencia hay estos faltantes:
 
 | Fecha | Publicación | Tipo | Referencia | Título | Archivo | Enlace | Observaciones |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-17 | 2026-06-17 | Balance de Comisión Directiva | P101-S029 | PERÍODO 101 DE CD – 29 SESIÓN ORDINARIA Y BALANCE | `balances/2026-06-17__cd-balance__p101-s029.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/06/PERIODO-101°de-COMISION-DIRECTIVA.pdf |  |
+| 2026-06-17 | 2026-06-17 | Acta de Comisión Directiva | P101-S029 | PERÍODO 101 DE CD – 29 SESIÓN ORDINARIA Y BALANCE | `2026-06-17__cd-acta__p101-s029.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/06/PERIODO-101°de-COMISION-DIRECTIVA.pdf | Incluye balance mensual. |
 | 2026-05-15 | 2026-05-15 | Balance de Comisión Directiva | P101-S028 | Período 101° de CD – 28° Sesión Ordinaria y Balance | `balances/2026-05-15__cd-balance__p101-s028.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/05/PERIODO-101°de-COMISION-DIRECTIVA-1.pdf |  |
 | 2026-04-08 | 2026-04-08 | Balance de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `balances/2026-04-08__cd-balance__p101-s027__part-02.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/CLUB-FERRO-CARRIL-OESTE.pdf |  |
 | 2026-04-08 | 2026-04-08 | Balance de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `balances/2026-04-08__cd-balance__p101-s027__part-01.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/PERIODO-101°de-COMISION-DIRECTIVA.pdf |  |
