@@ -88,7 +88,9 @@ Notebook de trabajo: **`Ferro Actas Publicas`**.
 
 Etiquetas activas: `Asamblea - Actas`, `Asamblea - Balances`, `Asamblea - Convocatorias`, `Asamblea - Tutoriales`, `CD - Actas`, `Soporte - Indices y notas`, `Documentación General`.
 
-Sirve para consultar con contexto y citas: última acta disponible, documentos en partes, diferencias entre fecha del archivo y fecha visible en el PDF, relaciones entre acta/balance/convocatoria del mismo período.
+También incluye el estatuto del club, cargado desde el PDF público [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf), como referencia general.
+
+Sirve para consultar con contexto y citas: última acta disponible, documentos en partes, diferencias entre fecha del archivo y fecha visible en el PDF, relaciones entre acta/balance/convocatoria del mismo período y el estatuto del club como marco normativo general.
 
 ## Redes sociales y agrupaciones
 

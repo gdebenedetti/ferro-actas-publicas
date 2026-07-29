@@ -2,7 +2,7 @@
 
 NotebookLM: `Ferro Actas Publicas` (`a44c97a9-d538-4de7-8915-c728b2f7774b`).
 
-Esta notebook reúne fuentes publicas de Ferrocarril Oeste de los ultimos años para consultar, comparar y verificar actas, balances, convocatorias y materiales vinculados.
+Esta notebook reúne fuentes publicas de Ferrocarril Oeste de los ultimos años para consultar, comparar y verificar actas, balances, convocatorias, el estatuto del club y materiales vinculados.
 
 La idea es que funcione como un punto de acceso a la informacion historica: se suben los documentos originales y los indices para poder responder preguntas con contexto y citas.
 
@@ -20,6 +20,7 @@ La idea es que funcione como un punto de acceso a la informacion historica: se s
   - En Asamblea, usar `ej###` cuando el acta nombra el ejercicio; si no lo nombra de forma explicita, conservar una referencia por fecha.
   - En Comision Directiva, conservar el esquema `p###/s###` propio del archivo.
   - Los indices y notas viven fuera de las etiquetas de actas.
+  - El estatuto del club se toma desde el PDF publico [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) y se trata como `Documentación General`.
 - Estado del proceso:
   - `Asamblea - Actas` y `CD - Actas` quedaron normalizadas en NotebookLM.
   - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
@@ -38,6 +39,7 @@ La idea es que funcione como un punto de acceso a la informacion historica: se s
 - documentos que estan divididos en partes;
 - diferencias entre la fecha del archivo, la fecha visible dentro del documento y la fecha de publicacion;
 - si un nombre de archivo coincide o no con lo que muestra el PDF o DOCX;
+- el estatuto del club como marco normativo general;
 - relaciones entre actas, balances y convocatorias del mismo periodo.
 
 ## Como usarla

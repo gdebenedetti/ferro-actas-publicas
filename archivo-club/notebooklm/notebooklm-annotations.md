@@ -9,6 +9,7 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 - La notebook `Ferro Actas Publicas` ya tiene cargadas y etiquetadas las fuentes principales.
 - `Asamblea - Actas` y `CD - Actas` quedaron limpias; los indices quedaron en `Soporte - Indices y notas`.
 - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
+- El estatuto del club quedó cargado desde el PDF público [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) como fuente de `Documentación General`.
 - Este archivo solo documenta una parte de las fuentes ya verificadas.
 - Pendiente: seguir agregando fichas y metadata ampliada para el resto de las actas, balances y documentos de apoyo.
 
@@ -19,6 +20,8 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
   - `2025-12-26 CD P101-S025`
   - `2026-01-29 CD P101-S026`
   - `2025-09-28 Asamblea Sep 2025`
+- Fuente general ya incorporada:
+  - `Estatuto.pdf`
 - Todo el resto del corpus sigue pendiente de ficha detallada, aunque ya quedo cargado y etiquetado en NotebookLM.
 
 ## 2025-12-26 CD P101-S025
