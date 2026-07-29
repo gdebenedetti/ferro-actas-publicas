@@ -6,8 +6,8 @@ Repositorio curado de documentación pública vinculada a Ferrocarril Oeste y a 
 
 | Eje | Qué es | Dónde vive |
 | --- | --- | --- |
-| **Club** | Espejo de documentos publicados en [ferrocarriloeste.org.ar](https://www.ferrocarriloeste.org.ar) | `actas-cd/`, `actas-asamblea/`, `scripts/` |
-| **MFA** | Comunicación e identidad de Movimiento Ferro en Acción | `redes-sociales/`, [`ferro-en-accion-web/`](./ferro-en-accion-web/) |
+| **Club** | Espejo de documentos publicados en [ferrocarriloeste.org.ar](https://www.ferrocarriloeste.org.ar) | `archivo-club/actas-cd/`, `archivo-club/actas-asamblea/`, `archivo-club/scripts/` |
+| **MFA** | Comunicación e identidad de Movimiento Ferro en Acción | `mfa/comunicacion/redes-sociales/`, `mfa/identidad/manual-marca/`, `mfa/trabajo/web-borradores/`, [`ferro-en-accion-web/`](./ferro-en-accion-web/), [`MFA-agente-WhatsApp/`](./MFA-agente-WhatsApp/) |
 
 El club y la agrupación son cosas distintas: acá conviven porque comparten contexto institucional, pero cada eje tiene su propósito y su forma de mantenerse al día.
 
@@ -15,37 +15,32 @@ El club y la agrupación son cosas distintas: acá conviven porque comparten con
 
 ```
 .
-├── actas-cd/              # Comisión Directiva (~118 documentos, ~67 MB)
-│   ├── index.md           # Índice legible; generado por sync
-│   ├── manifest.json      # Metadata estructurada; generado por sync
-│   └── balances/          # Balances de sumas y saldos
-├── actas-asamblea/        # Asambleas (~22 documentos, ~39 MB)
-│   ├── index.md
-│   ├── manifest.json
-│   └── balances/          # Memorias y balances generales
-├── scripts/
-│   ├── sync_actas_cd.py
-│   └── sync_actas_asamblea.py
-├── redes-sociales/        # Corpus e informes de Instagram y X (MFA)
-├── notebooklm-context.md  # Estado de la notebook NotebookLM
-├── notebooklm-annotations.md
+├── mfa/comunicacion/redes-sociales/   # Corpus e informes de Instagram y X (MFA)
+├── mfa/identidad/manual-marca/       # Espejo del manual de marca
+├── mfa/trabajo/web-borradores/       # Borradores de documentación para web
+├── archivo-club/
+│   ├── actas-cd/
+│   ├── actas-asamblea/
+│   ├── scripts/
+│   └── notebooklm/        # Estado de la notebook NotebookLM (opcional)
 ├── ferro-en-accion-web/   # Sitio institucional MFA (Astro, repo aparte)
+├── MFA-agente-WhatsApp/   # Investigación para un posible canal institucional por WhatsApp
 └── AGENTS.md              # Reglas de trabajo para agentes y colaboradores
 ```
 
 ## Qué hay en cada carpeta documental
 
-### `actas-cd/`
+### `archivo-club/actas-cd/`
 
 Actas y balances públicos de la Comisión Directiva, desde ~2018 hasta la fecha. Período actual: **P101** (sesiones `P101-S001` … `P101-S029`).
 
-Los faltantes conocidos están anotados en [`actas-cd/index.md`](./actas-cd/index.md) — por ejemplo, sesiones 17 y 28 del período 100.
+Los faltantes conocidos están anotados en [`archivo-club/actas-cd/index.md`](./archivo-club/actas-cd/index.md) — por ejemplo, sesiones 17 y 28 del período 100.
 
-### `actas-asamblea/`
+### `archivo-club/actas-asamblea/`
 
 Actas, balances, convocatorias y materiales de apoyo de asambleas generales. Cubre desde ~2018; no hay acta independiente de 2021 en esta copia pública (sí el balance del ejercicio 2020–2021).
 
-Detalle completo en [`actas-asamblea/index.md`](./actas-asamblea/index.md).
+Detalle completo en [`archivo-club/actas-asamblea/index.md`](./archivo-club/actas-asamblea/index.md).
 
 ## Convenciones de nombres
 
@@ -70,14 +65,17 @@ Los formatos originales se conservan: PDF, DOCX e imágenes (cuando el club publ
 Los scripts descargan adjuntos desde la API REST de WordPress del club:
 
 ```bash
+cd archivo-club
 python3 scripts/sync_actas_cd.py
 python3 scripts/sync_actas_asamblea.py
 ```
 
+Si pasás `--outdir`, los caminos relativos se resuelven bajo `archivo-club/`, no según el directorio actual.
+
 | Script | Categoría WP | Salida |
 | --- | --- | --- |
-| `sync_actas_cd.py` | ID 62 (Actas CD) | `actas-cd/` |
-| `sync_actas_asamblea.py` | ID 71 (Asamblea) | `actas-asamblea/` |
+| `sync_actas_cd.py` | ID 62 (Actas CD) | `archivo-club/actas-cd/` |
+| `sync_actas_asamblea.py` | ID 71 (Asamblea) | `archivo-club/actas-asamblea/` |
 
 Cada corrida regenera `index.md` y `manifest.json`. No editar esos archivos a mano salvo para corregir algo puntual que el script no capture; conviene anotar la excepción en el índice o en el manifest.
 
@@ -85,8 +83,8 @@ Cada corrida regenera `index.md` y `manifest.json`. No editar esos archivos a ma
 
 Notebook de trabajo: **`Ferro Actas Publicas`**.
 
-- [`notebooklm-context.md`](./notebooklm-context.md) — metadata, etiquetas y criterio de clasificación.
-- [`notebooklm-annotations.md`](./notebooklm-annotations.md) — fichas de lectura parcial (3 documentos verificados a jun 2025).
+- [`archivo-club/notebooklm/notebooklm-context.md`](./archivo-club/notebooklm/notebooklm-context.md) — metadata, etiquetas y criterio de clasificación.
+- [`archivo-club/notebooklm/notebooklm-annotations.md`](./archivo-club/notebooklm/notebooklm-annotations.md) — fichas de lectura parcial (3 documentos verificados a jun 2025).
 
 Etiquetas activas: `Asamblea - Actas`, `Asamblea - Balances`, `Asamblea - Convocatorias`, `Asamblea - Tutoriales`, `CD - Actas`, `CD - Balances`, `Soporte - Indices y notas`.
 
@@ -94,12 +92,20 @@ Sirve para consultar con contexto y citas: última acta disponible, documentos e
 
 ## Redes sociales y agrupaciones
 
-Corpus relevado al 2026-06-25 en [`redes-sociales/`](./redes-sociales/):
+Corpus relevado al 2026-06-25 en [`mfa/comunicacion/redes-sociales/`](./mfa/comunicacion/redes-sociales/):
 
 - **Movimiento Ferro en Acción:** corpus de Instagram y X con foco en gestión, participación y CIARF.
 - **Comparativa electoral:** análisis de `Somos Ferro`, `Primero Ferro`, `Juventud Verdolaga`, `Unidos por Oeste`, `Identidad Verdolaga` y `Todo Verde`.
 
-Índice y análisis en [`redes-sociales/index.md`](./redes-sociales/index.md) y [`redes-sociales/comparativa-agrupaciones.md`](./redes-sociales/comparativa-agrupaciones.md).
+Índice y análisis en [`mfa/comunicacion/redes-sociales/index.md`](./mfa/comunicacion/redes-sociales/index.md) y [`mfa/comunicacion/redes-sociales/analisis/comparativa-agrupaciones.md`](./mfa/comunicacion/redes-sociales/analisis/comparativa-agrupaciones.md).
+
+## Identidad (manual de marca)
+
+[`mfa/identidad/manual-marca/`](./mfa/identidad/manual-marca/) espejo del manual de marca y recursos asociados para Movimiento Ferro en Acción.
+
+## Trabajo (borradores web)
+
+[`mfa/trabajo/web-borradores/`](./mfa/trabajo/web-borradores/) borradores Word y artefactos de trabajo para la web (no producción).
 
 ## Sitio web MFA
 
@@ -117,6 +123,10 @@ Ver [`ferro-en-accion-web/README.md`](./ferro-en-accion-web/README.md) para buil
 
 - El subproyecto tiene sus propias reglas de edición en [`ferro-en-accion-web/AGENTS.md`](./ferro-en-accion-web/AGENTS.md).
 - Usar ese archivo cuando la tarea toque contenido, SEO, navegación, build o despliegue del sitio.
+
+## Investigación: MFA Agente WhatsApp
+
+[`MFA-agente-WhatsApp/`](./MFA-agente-WhatsApp/) reúne el research para evaluar un posible canal institucional de MFA por WhatsApp. La etapa actual es exclusivamente documental: alcance, políticas del canal, alternativas de arquitectura, necesidades de operación y decisiones pendientes. No contiene implementación ni credenciales.
 
 ## Para qué sirve este repo
 
