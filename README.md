@@ -84,9 +84,9 @@ Cada corrida regenera `index.md` y `manifest.json`. No editar esos archivos a ma
 Notebook de trabajo: **`Ferro Actas Publicas`**.
 
 - [`archivo-club/notebooklm/notebooklm-context.md`](./archivo-club/notebooklm/notebooklm-context.md) — metadata, etiquetas y criterio de clasificación.
-- [`archivo-club/notebooklm/notebooklm-annotations.md`](./archivo-club/notebooklm/notebooklm-annotations.md) — fichas de lectura parcial (3 documentos verificados a jun 2025).
+- [`archivo-club/notebooklm/notebooklm-annotations.md`](./archivo-club/notebooklm/notebooklm-annotations.md) — fichas de lectura parcial (3 documentos verificados).
 
-Etiquetas activas: `Asamblea - Actas`, `Asamblea - Balances`, `Asamblea - Convocatorias`, `Asamblea - Tutoriales`, `CD - Actas`, `CD - Balances`, `Soporte - Indices y notas`.
+Etiquetas activas: `Asamblea - Actas`, `Asamblea - Balances`, `Asamblea - Convocatorias`, `Asamblea - Tutoriales`, `CD - Actas`, `Soporte - Indices y notas`, `Documentación General`.
 
 Sirve para consultar con contexto y citas: última acta disponible, documentos en partes, diferencias entre fecha del archivo y fecha visible en el PDF, relaciones entre acta/balance/convocatoria del mismo período.
 

@@ -14,7 +14,6 @@ La idea es que funcione como un punto de acceso a la informacion historica: se s
   - `Asamblea - Convocatorias`
   - `Asamblea - Tutoriales`
   - `CD - Actas`
-  - `CD - Balances`
   - `Soporte - Indices y notas`
   - `Documentación General`
 - Criterio aplicado:
@@ -23,7 +22,7 @@ La idea es que funcione como un punto de acceso a la informacion historica: se s
   - Los indices y notas viven fuera de las etiquetas de actas.
 - Estado del proceso:
   - `Asamblea - Actas` y `CD - Actas` quedaron normalizadas en NotebookLM.
-  - `CD - Balances` quedo separado correctamente.
+  - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
   - La notebook ya es util para consultas generales, pero la metadata ampliada por documento sigue siendo parcial.
 
 ## Convencion de ejercicios

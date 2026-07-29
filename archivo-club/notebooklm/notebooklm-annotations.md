@@ -8,7 +8,7 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 
 - La notebook `Ferro Actas Publicas` ya tiene cargadas y etiquetadas las fuentes principales.
 - `Asamblea - Actas` y `CD - Actas` quedaron limpias; los indices quedaron en `Soporte - Indices y notas`.
-- `CD - Balances` esta separado en su propia etiqueta.
+- `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
 - Este archivo solo documenta una parte de las fuentes ya verificadas.
 - Pendiente: seguir agregando fichas y metadata ampliada para el resto de las actas, balances y documentos de apoyo.
 
