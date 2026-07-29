@@ -268,8 +268,10 @@ def collect_records(posts: list[dict]) -> list[AttachmentRecord]:
 
 
 def classify_kind(title: str) -> str:
-    lowered = title.lower()
-    if "balance" in lowered or "memoria y balance" in lowered:
+    normalized = normalize_text(title)
+    if "sesion" in normalized or "acta" in normalized or "ordinaria" in normalized:
+        return "cd-acta"
+    if "memoria y balance" in normalized or "balance" in normalized:
         return "cd-balance"
     return "cd-acta"
 
