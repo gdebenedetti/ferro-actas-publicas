@@ -4,8 +4,10 @@ Este repositorio es un archivo curado de documentación pública vinculada a Fer
 
 ## Alcance
 
-- `actas-cd/` y `actas-asamblea/`: espejo documental del club.
-- `redes-sociales/`: corpus, análisis y comparativas de la comunicación pública de MFA y de otras agrupaciones.
+- `archivo-club/actas-cd/` y `archivo-club/actas-asamblea/`: espejo documental del club.
+- `mfa/comunicacion/redes-sociales/`: corpus, análisis y comparativas de la comunicación pública de MFA y de otras agrupaciones.
+- `mfa/identidad/manual-marca/`: manual de marca y recursos asociados.
+- `mfa/trabajo/web-borradores/`: borradores Word y artefactos de trabajo para web (no producción).
 - `ferro-en-accion-web/`: sitio institucional de MFA, con contenido editable en Markdown y textos de soporte.
 
 ## Objetivo
@@ -52,3 +54,6 @@ Este repositorio es un archivo curado de documentación pública vinculada a Fer
 - Tratar `ferro-en-accion-web/` como subproyecto editable pero separado del archivo documental.
 - Mantener el contenido institucional coherente con el corpus público de redes y con el sitio original de MFA.
 - No mezclar materiales del sitio con el archivo histórico del club salvo en índices o textos de navegación.
+- Conservar la base de analítica del sitio al editar la web: no borrar `src/components/Analytics.astro`, `functions/api/track.ts`, `wrangler.toml`, ni el patrón `data-track-*` sin revisar el impacto.
+- Cuando se agreguen o modifiquen CTAs, chips, pastillas, acordeones, links internos, mailto, descargas o redes, etiquetarlos con `data-track-*` para mantener el seguimiento fino.
+- Mantener la separación de responsabilidades: Cloudflare Web Analytics para pageviews/performance y el endpoint propio para interacciones UI.

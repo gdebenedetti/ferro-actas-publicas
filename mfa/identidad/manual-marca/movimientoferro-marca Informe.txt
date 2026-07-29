@@ -1,0 +1,198 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: movimientoferro-marca.ai
+Modo de color: Color RGB
+Perfil de color: sRGB IEC61966-2.1
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 1920 px x 1080 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:
+Montserrat Regular (Adobe Fonts)
+Montserrat Bold (Adobe Fonts)
+
+-----------------------------------------------------------------------------
+Fuentes:
+Alameda Script PERSONAL USE Regular (OTF)
+Montserrat Medium (OTF)
+Montserrat Regular (OTF)
+Montserrat Black (OTF)
+Montserrat Bold (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+
+D:\Mis Documentos\Descargas\IMG_9689-1024x576-1-750x450.jpg
+Tipo: Otro
+
+D:\Mis Documentos\Descargas\Mesa de trabajo 1 copiaPiezas.jpg
+Tipo: Otro
+
+D:\Mis Documentos\Descargas\Mesa de trabajo 1Piezas.jpg
+Tipo: Otro
+
+D:\Mis Documentos\Descargas\IMG_2789-750x450.jpg
+Tipo: Otro
+
+D:\Mis Documentos\Descargas\IMG_2789-750x450.jpg
+Tipo: Otro
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\EFEMERIDES\DIA DE LA INDEPENDENCIA - FERRO\FLYEREFEMERIDE.png
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4271K, 1080 por 1350 píxeles
+Dimensiones: 308,045 por 385,056 puntos 
+Resolución: 252,431 por 252,431 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\EFEMERIDES\DIA DEL AMIGO - FERRO\diadelamigostoryPiezas.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 6080K, 1081 por 1920 píxeles
+Dimensiones: 217,299 por 385,952 puntos 
+Resolución: 358,179 por 358,179 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\HOY JUEGA FERRO\Mesa de trabajo 1 copia 3Piezas.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4278K, 1081 por 1351 píxeles
+Dimensiones: 306,092 por 382,545 puntos 
+Resolución: 254,276 por 254,276 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\HOY JUEGA FERRO\Mesa de trabajo 1 copia 4Piezas.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4278K, 1081 por 1351 píxeles
+Dimensiones: 306,092 por 382,545 puntos 
+Resolución: 254,276 por 254,276 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\ESPECIALES\CAMPEONSTORY.png
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 6075K, 1080 por 1920 píxeles
+Dimensiones: 217,449 por 386,576 puntos 
+Resolución: 357,601 por 357,601 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\ESPECIALES\FERRO-EN-ACCION.png
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4271K, 1080 por 1350 píxeles
+Dimensiones: 307,457 por 384,321 puntos 
+Resolución: 252,914 por 252,914 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\IDENTIDAD-20260702T133232Z-3-001\IDENTIDAD\EFEMERIDES\DIA DEL AMIGO - FERRO\DiadelamigoPiezas.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4271K, 1080 por 1350 píxeles
+Dimensiones: 307,457 por 384,321 puntos 
+Resolución: 252,914 por 252,914 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\ferro\WhatsApp-Image-2026-03-25-at-11.04.29-750x450.jpeg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 988K, 750 por 450 píxeles
+Dimensiones: 462,076 por 277,246 puntos 
+Resolución: 116,864 por 116,864 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\ChatGPT Image 3 jul 2026, 11_37_45.png
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 4605K, 1619 por 971 píxeles
+Dimensiones: 483,389 por 289,914 puntos 
+Resolución: 241,147 por 241,147 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\-¡FERRO-ESTA-EN-SEMIS-El-equipo-femenino-de-Futsal-gano-6-4-contra-Secla-con-goles-de-M-750x450.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 988K, 750 por 450 píxeles
+Dimensiones: 551,684 por 331,011 puntos 
+Resolución: 97,882 por 97,882 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\ferro\grafico_h2.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 1698K, 644 por 900 píxeles
+Dimensiones: 298,227 por 416,777 puntos 
+Resolución: 155,479 por 155,479 píxeles por pulgada
+
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\black-white-halftone-pattern-texture-background\3554297b-78e4-4f83-adfc-e92676ee4533.eps
+Tipo: EPS
+
+D:\Mis Documentos\Descargas\ferro\ChatGPT Image 2 jul 2026, 13_01_16.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 4196K, 1149 por 935 píxeles
+Dimensiones: 552,493 por 449,592 puntos 
+Resolución: 149,736 por 149,736 píxeles por pulgada
