@@ -12,6 +12,7 @@ Esta carpeta reúne actas, balances, convocatorias y materiales de apoyo vincula
 ## Continuidad
 - No aparece una acta de asamblea independiente fechada en 2021 dentro de esta copia pública.
 - Sí está incluido el balance del ejercicio 2020-2021, separado del acta.
+- La parte 3/3 del balance E121 conserva una imagen visual legible, pero su capa textual original tiene una codificación Type 3 defectuosa. Se agregó la copia derivada `balances/2025-06-30__asamblea-balance__ej121__part-03__ocr.pdf`, útil para búsqueda textual pero no validada para cifras: el OCR altera o pierde algunos números internos. También se creó `balances/2025-06-30__asamblea-balance__ej121__part-03__auditoria-numerica.md`, una transcripción manual de las tablas visibles con controles aritméticos y discrepancias internas declaradas. El PDF público original se conserva sin reemplazos.
 
 ## Listado
 

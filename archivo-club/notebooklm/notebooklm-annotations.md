@@ -15,13 +15,16 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 
 ## Corte actual
 
-- Fichas detalladas creadas: 3.
+- Fichas detalladas creadas: 4.
 - Fuentes ya fichadas:
   - `2025-12-26 CD P101-S025`
   - `2026-01-29 CD P101-S026`
   - `2025-09-28 Asamblea Sep 2025`
+  - `2025-06-30 Balance E121 parte 3 (OCR)`
 - Fuente general ya incorporada:
   - `Estatuto.pdf`
+- Fuente numérica auditada incorporada:
+  - `2025-06-30__asamblea-balance__ej121__part-03__auditoria-numerica`
 - Todo el resto del corpus sigue pendiente de ficha detallada, aunque ya quedo cargado y etiquetado en NotebookLM.
 
 ## 2025-12-26 CD P101-S025
@@ -130,3 +133,32 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
   - pedidos de mayor transparencia financiera;
   - seguimiento de infraestructura y comisiones de mantenimiento;
   - debate sostenido sobre futbol profesional y comunicacion institucional.
+
+## 2025-06-30 Balance E121 parte 3 (OCR)
+
+- Archivo original: `../actas-asamblea/balances/2025-06-30__asamblea-balance__ej121__part-03.pdf`
+- Archivo derivado: `../actas-asamblea/balances/2025-06-30__asamblea-balance__ej121__part-03__ocr.pdf`
+- Fuente NotebookLM: `44a4ff66-9df8-4ae3-b338-727057c17e5a`
+- Diagnostico: el PDF original se ve correctamente, pero su capa textual tiene una codificacion Type 3 defectuosa y no resulta confiable para extraccion. La copia OCR preserva la imagen de las 27 paginas y agrega una capa de texto buscable, pero altera o pierde algunos numeros internos.
+- Validacion: NotebookLM consultado exclusivamente sobre la fuente OCR confirmo la lectura general, pero repitio errores numericos del OCR. La fuente sirve para localizar texto; no debe usarse sola para cifras contables.
+- Datos verificados:
+  - Documento: Estados Contables del Club Ferro Carril Oeste Asociacion Civil, con estado de situacion patrimonial, recursos y gastos, patrimonio neto, flujo de efectivo, notas, anexos y legalizacion profesional.
+  - Ejercicio: `E121 (2024/2025)`, iniciado el 01/07/2024 y finalizado el 30/06/2025.
+  - Fecha de cierre: 30/06/2025.
+  - Total del activo: `$45.815.970.677,30`.
+  - Profesional interviniente: Dr. Christian Alejandro Warley, Contador Publico (U.B.A.), `CPCECABA T° 453 F° 75`.
+  - Fecha de intervencion: 18/09/2025. Fecha de legalizacion: 19/09/2025.
+- Temas principales: estados contables del ejercicio, situacion patrimonial, recursos y gastos, evolucion del patrimonio neto, flujo de efectivo, notas 1 a 10, anexos A a G y controles de legalizacion profesional.
+- Continuidad: el documento corresponde al balance presentado y aprobado en la Asamblea General Ordinaria del 28/09/2025.
+- Limitacion: se detectaron errores numericos concretos en las paginas 4 a 10 del PDF OCR, incluyendo digitos duplicados y totales omitidos. Para consultas contables no debe usarse el OCR como fuente unica: la transcripcion numerica auditada de abajo es la fuente estructurada, y el PDF original visual sigue siendo la referencia primaria.
+
+## 2025-06-30 Balance E121 parte 3 (auditoria numerica)
+
+- Archivo: `../actas-asamblea/balances/2025-06-30__asamblea-balance__ej121__part-03__auditoria-numerica.md`
+- Fuente NotebookLM: `49479c0b-4dd8-41d8-8bf5-48f9b45922b2`
+- Metodo: transcripcion manual desde las tablas visuales del PDF original, paginas 2 a 12, con conversiones y sumas controladas mediante `Decimal`. No se usó la capa Type 3 ni el OCR para decidir cifras.
+- Alcance: estados de situacion patrimonial, recursos y gastos, evolucion del patrimonio neto, flujo de efectivo y anexos A a G.
+- Resultado de la prueba CLI: se consultó NotebookLM con `--source-ids 49479c0b-4dd8-41d8-8bf5-48f9b45922b2`, sin otras fuentes. Devolvió correctamente los valores críticos solicitados y reprodujo las discrepancias internas documentadas.
+- Valores comprobados en la prueba: activo total 2025 `$45.815.970.677,30`; patrimonio neto 2024 `$39.641.683.391,69`; provisiones del flujo 2024 `-$689.416.083,91`; Futsal de escuelas 2025 `$369.888.636,63`; Egresos Generales de Intendencia 2024 `$1.047.744.188,92`; gastos específicos de departamentos 2025 `$14.002.670.362,44`.
+- Discrepancias que deben conservarse como parte de la metadata: Anexo C, suma de filas de Escuelas 2025 `$1.302.906.100,61` frente al total impreso `$1.302.906.100,63`; suma de subtotales impresos de C `$3.179.402.239,64` frente al total impreso `$3.179.402.239,63`. Anexo D, diferencias de un centavo entre filas y subtotales de Deportes y Egresos por Actividades, y suma de subtotales 2025 `$14.002.670.362,43` frente al total impreso `$14.002.670.362,44`.
+- Regla de consulta: para cifras exactas usar esta fuente auditada y pedir transcripción literal; para verificar una cifra cuestionada, contrastar además con la tabla visual del PDF original. El OCR queda como fuente de localización textual, no como fuente numérica.
