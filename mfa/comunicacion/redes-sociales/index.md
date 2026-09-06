@@ -3,6 +3,8 @@
 Corte documental principal: **2026-06-25**.  
 Redacción de este índice: **2026-06-30**.
 
+Actualización disponible: [novedades de las agrupaciones al 6 de septiembre de 2026](actualizaciones/2026-09-06__novedades-agrupaciones.md), con fuentes recientes, plataforma de Somos Ferro y pendientes para coaching. Las lecturas y métricas de junio que siguen son históricas, no un diagnóstico vigente de septiembre.
+
 ## Alcance
 
 - Baseline: Movimiento Ferro en Acción.
