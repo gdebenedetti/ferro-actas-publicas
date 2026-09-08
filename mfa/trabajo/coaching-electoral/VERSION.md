@@ -2,9 +2,11 @@
 
 ## Versión vigente
 
-**v0.1.0 — 2026-09-06**
+**v0.2.0 — 2026-09-08**
 
-Primera versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción.
+Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
+
+La versión incorpora la primera matriz comparativa y el protocolo de simulación, sin completar todavía las posiciones de MFA que requieren definición del equipo.
 
 ## Alcance de v0.1.0
 
@@ -15,6 +17,7 @@ Primera versión trazable del paquete de coaching electoral de Movimiento Ferro 
 - Novedades de MFA y posiciones públicas sobre Junta Electoral.
 - Corpus de nueve entrevistas, debates y asambleas históricas aportadas en el hilo.
 - Banco inicial de preguntas hostiles y reglas para validar transcripciones.
+- Matriz comparativa por temas y base de simulación hostil para una futura sesión de voz.
 
 ## Estados de evidencia
 
@@ -33,7 +36,7 @@ Cada corte nuevo debe:
 3. distinguir cambio factual de interpretación;
 4. registrar correcciones de nombres, cifras y transcripciones;
 5. actualizar el changelog y subir la versión menor (`v0.2.0`, `v0.3.0`) cuando agregue investigación nueva;
-6. reservar versiones de parche (`v0.1.1`) para correcciones editoriales sin nuevo research.
+6. reservar versiones de parche (`v0.2.1`) para correcciones editoriales sin nuevo research.
 
 ## Fuentes y límites de esta versión
 
