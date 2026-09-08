@@ -9,16 +9,19 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 - La notebook `Ferro Actas Publicas` ya tiene cargadas y etiquetadas las fuentes principales.
 - `Asamblea - Actas` y `CD - Actas` quedaron limpias; los indices quedaron en `Soporte - Indices y notas`.
 - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
+- Las fuentes `2026-05-07__cd-acta__p101-s029`, `2026-06-11__cd-acta__p101-s030` y `2026-07-30__cd-acta__p101-s031` ya están cargadas en NotebookLM con el mismo esquema de nombres del archivo local. No hace falta duplicarlas.
 - El estatuto del club quedó cargado desde el PDF público [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) como fuente de `Documentación General`.
 - Este archivo solo documenta una parte de las fuentes ya verificadas.
 - Pendiente: seguir agregando fichas y metadata ampliada para el resto de las actas, balances y documentos de apoyo.
 
 ## Corte actual
 
-- Fichas detalladas creadas: 4.
+- Fichas detalladas creadas: 6.
 - Fuentes ya fichadas:
   - `2025-12-26 CD P101-S025`
   - `2026-01-29 CD P101-S026`
+  - `2026-06-11 CD P101-S030`
+  - `2026-07-30 CD P101-S031`
   - `2025-09-28 Asamblea Sep 2025`
   - `2025-06-30 Balance E121 parte 3 (OCR)`
 - Fuente general ya incorporada:
@@ -26,6 +29,37 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 - Fuente numérica auditada incorporada:
   - `2025-06-30__asamblea-balance__ej121__part-03__auditoria-numerica`
 - Todo el resto del corpus sigue pendiente de ficha detallada, aunque ya quedo cargado y etiquetado en NotebookLM.
+
+## 2026-07-30 CD P101-S031
+
+- Archivo local: `../actas-cd/2026-07-30__cd-acta__p101-s031.pdf`
+- Fecha real de la sesion: 30 de julio de 2026
+- Titulo visible: `PERIODO 101° de COMISIÓN DIRECTIVA 31° Sesión Ordinaria`
+- Fecha de publicacion: 3 de septiembre de 2026
+- Fuente NotebookLM: `7acde740-1c71-49b5-8d8a-1cbabeb13791`
+- Extension: 2 paginas, un solo PDF.
+- Temas principales: balance de sumas y saldos al 31/03/2026; altas y bajas de socios; tratamiento de un incidente disciplinario; obras de infraestructura; contratos para eventos musicales; y participacion de los equipos profesionales en competencias nacionales.
+- Limitacion: el PDF es un escaneo sin capa de texto continua. El resumen de NotebookLM sirve para localizar temas; para citas literales o cifras hay que revisar el PDF visual.
+
+## 2026-06-11 CD P101-S030
+
+- Archivo local: `../actas-cd/2026-06-11__cd-acta__p101-s030.pdf`
+- Fecha real de la sesion: 11 de junio de 2026
+- Titulo visible: `PERIODO 101° de COMISIÓN DIRECTIVA 30° Sesión Ordinaria`
+- Fecha de publicacion: 3 de septiembre de 2026
+- Fuente NotebookLM: `b6166960-c443-4d6e-a6db-d15c2ddbb975`
+- Extension: 5 paginas, un solo PDF.
+- Temas principales: balance de sumas y saldos al 28/02/2026; debate sobre endeudamiento y financiamiento; obras de mantenimiento en sedes y espacios educativos; linea de credito para infraestructura de hockey e iluminacion; altas y bajas de socios; y asuntos disciplinarios y legales.
+- Limitacion: el PDF es un escaneo sin capa de texto continua. El resumen de NotebookLM sirve para localizar temas; para citas literales o cifras hay que revisar el PDF visual.
+
+## 2026-05-07 CD P101-S029
+
+- Archivo local: `../actas-cd/2026-05-07__cd-acta__p101-s029.pdf`
+- Titulo de la fuente en NotebookLM: `2026-05-07__cd-acta__p101-s029`
+- Fuente NotebookLM: `76354593-488f-42d1-87f5-08058262ec57`
+- Estado: fuente cargada y procesada como documento visual escaneado.
+- Resumen disponible: gestión de socios, sanciones disciplinarias, balance financiero y designación de instalaciones en memoria de Nora Celia Grittini.
+- Limitacion: el contenido bruto recuperado conserva imagenes de las paginas y no una transcripcion textual continua; para citas literales o cifras hay que revisar el PDF visual.
 
 ## 2025-12-26 CD P101-S025
 

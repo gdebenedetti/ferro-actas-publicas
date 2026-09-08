@@ -24,6 +24,7 @@ La idea es que funcione como un punto de acceso a la informacion historica: se s
 - Estado del proceso:
   - `Asamblea - Actas` y `CD - Actas` quedaron normalizadas en NotebookLM.
   - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
+  - Las sesiones `2026-05-07__cd-acta__p101-s029`, `2026-06-11__cd-acta__p101-s030` y `2026-07-30__cd-acta__p101-s031` ya están cargadas en la notebook; no deben agregarse copias duplicadas.
   - La notebook ya es util para consultas generales, pero la metadata ampliada por documento sigue siendo parcial.
 
 ## Convencion de ejercicios

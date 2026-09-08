@@ -32,7 +32,7 @@ El club y la agrupación son cosas distintas: acá conviven porque comparten con
 
 ### `archivo-club/actas-cd/`
 
-Actas y balances públicos de la Comisión Directiva, desde ~2018 hasta la fecha. Período actual: **P101** (sesiones `P101-S001` … `P101-S029`).
+Actas y balances públicos de la Comisión Directiva, desde ~2018 hasta la fecha. Período actual: **P101** (sesiones `P101-S001` … `P101-S031`).
 
 Los faltantes conocidos están anotados en [`archivo-club/actas-cd/index.md`](./archivo-club/actas-cd/index.md) — por ejemplo, sesiones 17 y 28 del período 100.
 
