@@ -125,7 +125,7 @@ No se produjo un ranking electoral ni un cálculo de engagement con universos in
 - [Presentación de candidatos de SF](https://ferrocarriloeste.com.ar/index1.php?noti=26463): nota de prensa leída.
 - [Entrevista a Baigorrotegui](https://ferrocarriloeste.com.ar/index1.php?noti=26464): se verificó que incrusta el [video recibido por el usuario](https://www.youtube.com/watch?v=Nzy0HYZuvV8). El sitio escribe el apellido de manera distinta en el título; conservar la forma contrastada, sin convertir la errata en una persona diferente.
 - El encabezado del sitio mostraba 6/9/2026; podría ser fecha dinámica y no acredita por sí solo fecha de cada artículo.
-- No se confirmó convocatoria, formato ni participantes del posible debate del 24/9 en Ferroweb. Sigue siendo información tentativa aportada por el usuario.
+- El usuario confirmó que habrá debate en Ferro Web el 24/9. Convocatoria, formato, participantes, reglas y publicación posterior siguen pendientes de confirmación documental del organizador.
 - Cubrir un acto no demuestra alineamiento político. La hipótesis de medios adversos sirve para el simulacro, no como acusación probada sobre periodistas.
 
 ## 8. Prioridades documentales y simulaciones
