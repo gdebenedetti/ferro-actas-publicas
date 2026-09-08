@@ -1,5 +1,12 @@
 # Changelog del research electoral
 
+## [v0.3.1] — 2026-09-08
+
+### Corregido
+
+- La composición de la Junta Electoral pasa de estado provisional a oficial.
+- Se retiró del material versionado cualquier detalle interno sobre la negociación y la abstención de MFA.
+
 ## [v0.3.0] — 2026-09-08
 
 ### Agregado
@@ -10,7 +17,7 @@
 
 ### Estado
 
-- La composición está registrada como declaración aportada por el equipo. Falta acta, resolución o comunicación oficial para elevarla a `documento-confirmado`.
+- La composición había sido incorporada inicialmente como declaración aportada por el equipo; la versión siguiente la actualiza a oficial.
 
 ## [v0.2.0] — 2026-09-08
 

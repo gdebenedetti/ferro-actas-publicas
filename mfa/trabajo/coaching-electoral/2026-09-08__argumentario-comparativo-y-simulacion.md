@@ -1,21 +1,21 @@
 # Argumentario comparativo y simulación de entrevistas
 
-Versión de trabajo: **v0.3.0 — 8 de septiembre de 2026**
+Versión de trabajo: **v0.3.1 — 8 de septiembre de 2026**
 Uso: preparación interna de Movimiento Ferro en Acción. No es una plataforma electoral ni una ficha de candidatos.
 
 ## 1. Qué falta cerrar antes de usarlo como argumentario público
 
 ### Junta Electoral
 
-El equipo informó la siguiente composición. Por ahora tiene estado `declaración aportada por el equipo`; falta cotejarla con el acta, resolución o comunicación oficial.
+La composición oficial comunicada al equipo es la siguiente. Se registra sin incorporar detalles internos de la negociación.
 
-| Cargo | Nombre | Agrupación informada | Estado |
+| Cargo | Nombre | Agrupación | Estado |
 |---|---|---|---|
-| Titular | Francisco Croccioni | Identidad Verdolaga | Aportado por el equipo; documento pendiente |
-| Titular | Luis Bilancieri | Identidad Verdolaga | Aportado por el equipo; documento pendiente |
-| Titular | Ramiro San Juan | Somos Ferro | Aportado por el equipo; documento pendiente |
-| Suplente | Ariel Garrido | Identidad Verdolaga | Aportado por el equipo; documento pendiente |
-| Suplente | Gastón Albornoz | Identidad Verdolaga | Aportado por el equipo; documento pendiente |
+| Titular | Francisco Croccioni | Identidad Verdolaga | Oficial |
+| Titular | Luis Bilancieri | Identidad Verdolaga | Oficial |
+| Titular | Ramiro San Juan | Somos Ferro | Oficial |
+| Suplente | Ariel Garrido | Identidad Verdolaga | Oficial |
+| Suplente | Gastón Albornoz | Identidad Verdolaga | Oficial |
 
 La lectura provisional es **4 integrantes atribuidos a Identidad Verdolaga y 1 a Somos Ferro; ningún integrante atribuido a MFA**. Esa distribución no permite por sí sola afirmar ilegalidad: hay que verificar regla, designación y atribución formal.
 
@@ -23,7 +23,7 @@ Para cerrar la ficha, registrar además:
 
 | Dato | Evidencia necesaria | Estado de uso |
 |---|---|---|
-| Titulares y suplentes | Acta, resolución o comunicado oficial con nombres y cargos | No afirmar composición hasta tenerlo |
+| Titulares y suplentes | Acta, resolución o comunicado oficial con nombres y cargos | Composición oficial recibida; conservar fuente documental cuando esté disponible |
 | Quién propuso a cada integrante | Nota, moción, acta o registro de la reunión | Distinguir propuesta de designación efectiva |
 | Regla aplicada | Estatuto, reglamento electoral o resolución | Citar artículo o documento, no una interpretación de memoria |
 | Representación de cada agrupación | Documento que identifique el vínculo | No confundir “oposición” con una lista concreta |
@@ -66,7 +66,7 @@ Las celdas de MFA quedan deliberadamente abiertas hasta que el equipo defina su 
 
 | Tema | Qué dicen o muestran las otras agrupaciones | Posición MFA a completar | Evidencia requerida | Pregunta hostil probable |
 |---|---|---|---|---|
-| Junta Electoral y garantías | La composición informada atribuye 4 lugares a IV y 1 a SF, sin MFA. Somos Ferro presenta su lugar opositor como avance; MFA reclama representación de las tres agrupaciones. | Explicar por qué MFA considera insuficiente una Junta sin su representación y qué regla alternativa propuso. | Acta, resolución, designaciones, notas y reglamento. | «Hay un opositor en la Junta: ¿por qué MFA dice que no hay pluralidad?» |
+| Junta Electoral y garantías | La composición oficial atribuye 4 lugares a IV y 1 a SF, sin MFA. Somos Ferro presenta su lugar opositor como avance; MFA sostiene representación de las tres agrupaciones. | Explicar por qué MFA considera insuficiente una Junta sin su representación y qué regla alternativa propone. | Resolución, designaciones, notas y reglamento. | «Hay un opositor en la Junta: ¿por qué MFA dice que no hay pluralidad?» |
 | Transparencia económica | Somos Ferro propone diagnóstico inicial, balances comunicados y presupuesto con control mensual. Entrevistas históricas preguntan por alquileres, gastos y destino del dinero. | Qué se publica, con qué frecuencia, quién controla y qué se puede publicar legalmente. | Balances, contratos publicables, Estatuto y decisión de MFA. | «¿Qué dato concreto van a publicar el primer mes?» |
 | Fútbol profesional | Somos Ferro plantea Oficina de Fútbol, estructura deportiva y reinversión del 15% de transferencias de inferiores. Identidad reivindica continuidad y resultados de gestión. | Modelo de decisión, relación con inferiores, asesoramiento, límites de terceros y métricas. | Plataforma SF, declaraciones IV, programa MFA y presupuesto. | «¿Quién decide los refuerzos y cuánto margen tiene un asesor?» |
 | Inferiores y deportes | Identidad comunica crecimiento de disciplinas; Somos Ferro propone Dirección de Deportes, salud integral y reorganización del básquet. | Prioridades de MFA entre fútbol, deportes federados, recreativos y salud. | Censo, costos, instalaciones, programa MFA. | «¿Van a reconocer lo que creció hockey o handball?» |
@@ -164,7 +164,7 @@ No conviene usar el modo de voz para resolver datos faltantes en vivo. Si aparec
 
 ## 5. Próxima secuencia de trabajo
 
-1. Obtener el acta o resolución que confirme la composición informada de la Junta Electoral.
+1. Archivar el acta o resolución de la composición oficial de la Junta Electoral cuando el equipo la tenga disponible.
 2. Confirmar el formato del debate del 24/9 con Ferroweb y fijar una versión de reglas.
 3. Validar los pasajes sensibles de las entrevistas y moverlos a `audio-confirmado` o `pendiente`.
 4. Completar sólo las celdas MFA de esta matriz que el equipo político apruebe.

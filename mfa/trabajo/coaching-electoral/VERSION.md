@@ -2,13 +2,13 @@
 
 ## Versión vigente
 
-**v0.3.0 — 2026-09-08**
+**v0.3.1 — 2026-09-08**
 
 Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
 
 La versión incorpora la primera matriz comparativa y el protocolo de simulación, sin completar todavía las posiciones de MFA que requieren definición del equipo.
 
-También registra la composición de Junta Electoral informada por el equipo, pendiente de confirmación documental.
+También registra la composición oficial de Junta Electoral comunicada al equipo, sin exponer detalles internos de la negociación.
 
 ## Alcance de v0.1.0
 
@@ -20,7 +20,7 @@ También registra la composición de Junta Electoral informada por el equipo, pe
 - Corpus de nueve entrevistas, debates y asambleas históricas aportadas en el hilo.
 - Banco inicial de preguntas hostiles y reglas para validar transcripciones.
 - Matriz comparativa por temas y base de simulación hostil para una futura sesión de voz.
-- Composición informada de la Junta Electoral: cuatro lugares atribuidos a Identidad Verdolaga y uno a Somos Ferro.
+- Composición oficial de la Junta Electoral: cuatro lugares de Identidad Verdolaga y uno de Somos Ferro.
 
 ## Estados de evidencia
 
