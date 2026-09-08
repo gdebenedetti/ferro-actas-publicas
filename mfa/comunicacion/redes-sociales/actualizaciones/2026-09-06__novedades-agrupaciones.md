@@ -26,6 +26,7 @@ Estados: **observado** significa texto público leído o imagen revisada; **decl
 | 3/9, [MFA](https://x.com/ferroenaccion/status/2095585565378822324) y [continuación](https://x.com/ferroenaccion/status/2095585578016223467) | Reclama un lugar para cada agrupación y cuestiona las decisiones de IV y SF. Textos de publicaciones leídos; carruseles no revisados íntegramente. | No sustituye la resolución ni la documentación de la negociación. |
 | 4/9, [MFA: primera parte](https://x.com/ferroenaccion/status/2095873319790596200) y [continuación](https://x.com/ferroenaccion/status/2095873621633663348) | Ocho imágenes revisadas. MFA afirma que la Junta tiene tres titulares y dos suplentes; que el oficialismo retuvo dos titulares; que propuso un titular por agrupación mediante nota; y que finalmente quedó sin representación. | La nota, resolución, nombres y cargos efectivos no fueron contrastados. Las frases atribuidas a SF en estas placas siguen siendo atribuciones hechas por MFA. |
 | 4/9, [Somos Ferro](https://x.com/SomosFerro/status/2095906203511533913), última edición visible 13:05 | Presenta como avance la fecha electoral y el ingreso de un integrante opositor, que califica como inédito en la historia. | La primacía histórica no fue verificada. Tampoco prueba representación de todas las oposiciones. |
+| 8/9, composición oficial comunicada al equipo MFA | Cinco miembros: titulares Francisco Croccioni (IV), Luis Bilancieri (IV), Ramiro San Juan (SF); suplentes Ariel Garrido (IV), Gastón Albornoz (IV). | Se registra la composición. Los detalles internos de la negociación quedan fuera de este archivo. |
 
 **Interpretación para preparación:** el punto de discusión es la diferencia entre presencia opositora y representación plural de las listas. No confundir ese desacuerdo con una denuncia comprobada de fraude. El respaldo prioritario es la resolución y la nota original de MFA, no una réplica más contundente.
 
@@ -125,7 +126,7 @@ No se produjo un ranking electoral ni un cálculo de engagement con universos in
 - [Presentación de candidatos de SF](https://ferrocarriloeste.com.ar/index1.php?noti=26463): nota de prensa leída.
 - [Entrevista a Baigorrotegui](https://ferrocarriloeste.com.ar/index1.php?noti=26464): se verificó que incrusta el [video recibido por el usuario](https://www.youtube.com/watch?v=Nzy0HYZuvV8). El sitio escribe el apellido de manera distinta en el título; conservar la forma contrastada, sin convertir la errata en una persona diferente.
 - El encabezado del sitio mostraba 6/9/2026; podría ser fecha dinámica y no acredita por sí solo fecha de cada artículo.
-- No se confirmó convocatoria, formato ni participantes del posible debate del 24/9 en Ferroweb. Sigue siendo información tentativa aportada por el usuario.
+- El usuario confirmó que habrá debate en Ferro Web el 24/9. Convocatoria, formato, participantes, reglas y publicación posterior siguen pendientes de confirmación documental del organizador.
 - Cubrir un acto no demuestra alineamiento político. La hipótesis de medios adversos sirve para el simulacro, no como acusación probada sobre periodistas.
 
 ## 8. Prioridades documentales y simulaciones

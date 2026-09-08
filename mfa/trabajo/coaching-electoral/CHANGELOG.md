@@ -1,5 +1,38 @@
 # Changelog del research electoral
 
+## [v0.3.1] — 2026-09-08
+
+### Corregido
+
+- La composición de la Junta Electoral pasa de estado provisional a oficial.
+- Se retiró del material versionado cualquier detalle interno sobre la negociación y la abstención de MFA.
+
+## [v0.3.0] — 2026-09-08
+
+### Agregado
+
+- Composición de Junta Electoral informada por el equipo: Francisco Croccioni, Luis Bilancieri y Ramiro San Juan como titulares; Ariel Garrido y Gastón Albornoz como suplentes.
+- Atribución comunicada: cuatro integrantes de Identidad Verdolaga y uno de Somos Ferro; sin integrante de MFA en la información recibida.
+- Preguntas de simulación específicas sobre representación, pluralidad y legitimidad.
+
+### Estado
+
+- La composición había sido incorporada inicialmente como declaración aportada por el equipo; la versión siguiente la actualiza a oficial.
+
+## [v0.2.0] — 2026-09-08
+
+### Agregado
+
+- Nuevo reporte de argumento comparativo por temas.
+- Protocolo para incorporar composición de Junta Electoral y validar pasajes sensibles.
+- Base de simulación hostil con roles, rondas, repreguntas y rúbrica.
+- Guía de configuración para una futura simulación por voz en ChatGPT.
+
+### Pendiente
+
+- Completar celdas de MFA sólo después de aprobación del equipo.
+- Incorporar Junta Electoral, formato del debate del 24/9 y validaciones audiovisuales.
+
 ## [v0.1.0] — 2026-09-06
 
 ### Agregado
@@ -26,4 +59,4 @@
 
 ## Próxima versión sugerida
 
-`v0.2.0` cuando se incorpore nueva evidencia primaria sobre Junta, candidaturas, debate o entrevistas actuales.
+`v0.4.0` cuando se incorpore nueva evidencia primaria sobre Junta, candidaturas, debate o entrevistas actuales.

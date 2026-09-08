@@ -2,12 +2,12 @@
 
 Documento interno de preparación. Inicio: 6 de septiembre de 2026.
 
-Versión vigente: **v0.1.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
+Versión vigente: **v0.3.1**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
 
 ## Encuadre recibido
 
-- Elección del 27 de septiembre de 2026, confirmada por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719). Resolución completa y composición de la Junta pendientes de incorporación.
-- Posible debate en Ferro Web el 24 de septiembre; participación, formato y realización pendientes de confirmación.
+- Elección del 27 de septiembre de 2026, confirmada por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719). La composición oficial de la Junta ya está incorporada al argumentario.
+- Debate en Ferro Web previsto para el 24 de septiembre, confirmado por el usuario; participación, formato, reglas y publicación posterior pendientes de confirmación documental del organizador.
 - Escenario base: entrevistas exigentes o adversas, con interrupciones, preguntas con premisas discutibles, repreguntas y presión de tiempo.
 - La cercanía de medios con Identidad Verdolaga y Somos Ferro es una lectura aportada por el usuario. No se registra como hecho demostrado sobre cada medio o periodista.
 - Identidad Verdolaga se considera oficialismo y Somos Ferro coalición opositora para organizar los ejercicios, conforme al contexto aportado por el usuario. La integración actual y las candidaturas requieren fuentes actualizadas.
@@ -16,6 +16,7 @@ Versión vigente: **v0.1.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md
 
 - [Actualización de agrupaciones — 6 de septiembre](../../comunicacion/redes-sociales/actualizaciones/2026-09-06__novedades-agrupaciones.md): Junta Electoral, candidaturas, plataforma de treinta propuestas de Somos Ferro, campaña reciente de IV, nuevas piezas MFA y preguntas de simulación.
 - [Corpus de entrevistas históricas y asambleas — 6 de septiembre](2026-09-06__corpus-entrevistas-historicas-y-asambleas.md): nueve videos nuevos, disponibilidad de transcript, patrones de preguntas y banco de simulación.
+- [Argumentario comparativo y simulación — 8 de septiembre](2026-09-08__argumentario-comparativo-y-simulacion.md): matriz temática, protocolo de validación, rondas hostiles y base para simulación de voz.
 - [Repaso del proyecto y repositorios para coaching — 6 de septiembre](2026-09-06__repaso-documental-para-coaching.md): inventario, hallazgos, preguntas difíciles y pendientes.
 - Primera entrevista recibida: [Patricio Baigorrotegui / Somos Ferro](https://www.youtube.com/watch?v=Nzy0HYZuvV8), publicada por ferrocarriloeste.com.ar. Se consultaron subtítulos automáticos en este hilo; la fecha de publicación y los pasajes críticos siguen pendientes de validación. La lectura anterior del hilo es preliminar.
 
