@@ -1,14 +1,40 @@
 {
   "site": "https://www.ferrocarriloeste.org.ar",
   "category_id": 62,
-  "count": 119,
+  "count": 121,
   "extensions": {
     ".docx": 1,
     ".jpeg": 7,
     ".jpg": 4,
-    ".pdf": 107
+    ".pdf": 109
   },
   "records": [
+    {
+      "post_id": 39495,
+      "post_date": "2026-09-03",
+      "event_date": "2026-07-30",
+      "title": "PERIODO 101° DE CD – 31° SESION ORDINARIA",
+      "slug": "periodo-101-de-cd-31-sesion-ordinaria",
+      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-31-sesion-ordinaria/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-de-Julio.pdf",
+      "local_file": "2026-07-30__cd-acta__p101-s031.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 31",
+      "note": ""
+    },
+    {
+      "post_id": 39492,
+      "post_date": "2026-09-03",
+      "event_date": "2026-06-11",
+      "title": "PERIODO 101° DE CD – 30 SESION ORDINARIA",
+      "slug": "periodo-101-de-cd-30-sesion-ordinaria",
+      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-30-sesion-ordinaria/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-CD-junio.pdf",
+      "local_file": "2026-06-11__cd-acta__p101-s030.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 30",
+      "note": ""
+    },
     {
       "post_id": 39275,
       "post_date": "2026-06-17",
@@ -20,7 +46,7 @@
       "local_file": "2026-05-07__cd-acta__p101-s029.pdf",
       "kind": "cd-acta",
       "reference": "Sesion 29",
-      "note": "Incluye balance mensual."
+      "note": ""
     },
     {
       "post_id": 39196,
@@ -33,33 +59,7 @@
       "local_file": "2026-03-31__cd-acta__p101-s028.pdf",
       "kind": "cd-acta",
       "reference": "Sesion 28",
-      "note": "Sesión ordinaria con balance incluido."
-    },
-    {
-      "post_id": 39127,
-      "post_date": "2026-04-08",
-      "event_date": "2026-02-26",
-      "title": "PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE",
-      "slug": "periodo-101-de-cd-27-sesion-ordinaria-y-balance",
-      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-27-sesion-ordinaria-y-balance/",
-      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/CLUB-FERRO-CARRIL-OESTE.pdf",
-      "local_file": "2026-02-26__cd-acta__p101-s027__part-02.pdf",
-      "kind": "cd-acta",
-      "reference": "Sesion 27",
-      "note": "Sesión ordinaria con balance incluido."
-    },
-    {
-      "post_id": 39127,
-      "post_date": "2026-04-08",
-      "event_date": "2026-02-26",
-      "title": "PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE",
-      "slug": "periodo-101-de-cd-27-sesion-ordinaria-y-balance",
-      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-27-sesion-ordinaria-y-balance/",
-      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/PERIODO-101°de-COMISION-DIRECTIVA.pdf",
-      "local_file": "2026-02-26__cd-acta__p101-s027__part-01.pdf",
-      "kind": "cd-acta",
-      "reference": "Sesion 27",
-      "note": "Sesión ordinaria con balance incluido."
+      "note": ""
     },
     {
       "post_id": 39085,
@@ -85,6 +85,32 @@
       "local_file": "2026-03-17__cd-acta__p101-s024.pdf",
       "kind": "cd-acta",
       "reference": "Sesion 24",
+      "note": ""
+    },
+    {
+      "post_id": 39127,
+      "post_date": "2026-04-08",
+      "event_date": "2026-02-26",
+      "title": "PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE",
+      "slug": "periodo-101-de-cd-27-sesion-ordinaria-y-balance",
+      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-27-sesion-ordinaria-y-balance/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/CLUB-FERRO-CARRIL-OESTE.pdf",
+      "local_file": "2026-02-26__cd-acta__p101-s027__part-02.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 27",
+      "note": ""
+    },
+    {
+      "post_id": 39127,
+      "post_date": "2026-04-08",
+      "event_date": "2026-02-26",
+      "title": "PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE",
+      "slug": "periodo-101-de-cd-27-sesion-ordinaria-y-balance",
+      "post_url": "https://www.ferrocarriloeste.org.ar/comision-directiva/actas/periodo-101-de-cd-27-sesion-ordinaria-y-balance/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/PERIODO-101°de-COMISION-DIRECTIVA.pdf",
+      "local_file": "2026-02-26__cd-acta__p101-s027__part-01.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 27",
       "note": ""
     },
     {

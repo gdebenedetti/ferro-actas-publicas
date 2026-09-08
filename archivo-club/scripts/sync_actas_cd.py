@@ -37,6 +37,16 @@ DEFAULT_OUTDIR = REPO_ROOT / "actas-cd"
 USER_AGENT = "CodexActasCDSync/1.0"
 ALLOWED_HOST_SUFFIX = "ferrocarriloeste.org.ar"
 
+# Dates verified from the first page of the scanned PDFs. Keep these overrides
+# until the synchronizer can extract dates from scanned PDF images itself.
+EVENT_DATE_OVERRIDES = {
+    "periodo-101-de-cd-27-sesion-ordinaria-y-balance": "2026-02-26",
+    "periodo-101-de-cd-28-sesion-ordinaria-y-balance": "2026-03-31",
+    "periodo-101-de-cd-29-sesion-ordinaria-y-balance": "2026-05-07",
+    "periodo-101-de-cd-30-sesion-ordinaria": "2026-06-11",
+    "periodo-101-de-cd-31-sesion-ordinaria": "2026-07-30",
+}
+
 TITLE_HINT_RE = re.compile(
     r"\b(acta|actas|cd|sesi[oó]n|periodo|per[ií]odo|balance)\b",
     re.IGNORECASE,
@@ -285,6 +295,9 @@ def infer_reference(title: str, slug: str, post_date: str, attachments: list[str
 
 
 def infer_event_date(title: str, slug: str, reference: str, attachments: list[str], post_date: str) -> str:
+    if slug in EVENT_DATE_OVERRIDES:
+        return EVENT_DATE_OVERRIDES[slug]
+
     candidates = [title, slug, reference, *[Path(urllib.parse.urlparse(u).path).name for u in attachments]]
     for candidate in candidates:
         event_date = extract_exact_date(candidate)

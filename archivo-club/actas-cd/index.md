@@ -1,6 +1,6 @@
 # Documentos de Comisión Directiva
 
-Documentos reunidos: 119
+Documentos reunidos: 121
 
 Esta carpeta reúne actas y balances públicos de la Comisión Directiva. Los documentos están ordenados del más reciente al más antiguo.
 
@@ -16,12 +16,14 @@ En la secuencia hay estos faltantes:
 
 | Fecha | Publicación | Tipo | Referencia | Título | Archivo | Enlace | Observaciones |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-05-07 | 2026-06-17 | Acta de Comisión Directiva | P101-S029 | PERÍODO 101 DE CD – 29 SESIÓN ORDINARIA Y BALANCE | `2026-05-07__cd-acta__p101-s029.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/06/PERIODO-101°de-COMISION-DIRECTIVA.pdf | Incluye balance mensual. |
-| 2026-03-31 | 2026-05-15 | Acta de Comisión Directiva | P101-S028 | Período 101° de CD – 28° Sesión Ordinaria y Balance | `2026-03-31__cd-acta__p101-s028.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/05/PERIODO-101°de-COMISION-DIRECTIVA-1.pdf | Sesión ordinaria con balance incluido. |
-| 2026-02-26 | 2026-04-08 | Acta de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `2026-02-26__cd-acta__p101-s027__part-02.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/CLUB-FERRO-CARRIL-OESTE.pdf | Sesión ordinaria con balance incluido. |
-| 2026-02-26 | 2026-04-08 | Acta de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `2026-02-26__cd-acta__p101-s027__part-01.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/PERIODO-101°de-COMISION-DIRECTIVA.pdf | Sesión ordinaria con balance incluido. |
+| 2026-07-30 | 2026-09-03 | Acta de Comisión Directiva | P101-S031 | PERIODO 101° DE CD – 31° SESION ORDINARIA | `2026-07-30__cd-acta__p101-s031.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-de-Julio.pdf |  |
+| 2026-06-11 | 2026-09-03 | Acta de Comisión Directiva | P101-S030 | PERIODO 101° DE CD – 30 SESION ORDINARIA | `2026-06-11__cd-acta__p101-s030.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-CD-junio.pdf |  |
+| 2026-05-07 | 2026-06-17 | Acta de Comisión Directiva | P101-S029 | PERÍODO 101 DE CD – 29 SESIÓN ORDINARIA Y BALANCE | `2026-05-07__cd-acta__p101-s029.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/06/PERIODO-101°de-COMISION-DIRECTIVA.pdf |  |
+| 2026-03-31 | 2026-05-15 | Acta de Comisión Directiva | P101-S028 | Período 101° de CD – 28° Sesión Ordinaria y Balance | `2026-03-31__cd-acta__p101-s028.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/05/PERIODO-101°de-COMISION-DIRECTIVA-1.pdf |  |
 | 2026-03-19 | 2026-03-19 | Acta de Comisión Directiva | P101-S026 | PERÍODO 101° DE CD – 26° SESIÓN ORDINARIA | `2026-03-19__cd-acta__p101-s026.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/03/CamScanner-19-03-2026-11.22.pdf |  |
 | 2026-03-17 | 2025-12-27 | Acta de Comisión Directiva | P101-S024 | PERÍODO 101° DE CD – 24° SESIÓN ORDINARIA | `2026-03-17__cd-acta__p101-s024.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/03/CamScanner-17-03-2026-15.23.pdf |  |
+| 2026-02-26 | 2026-04-08 | Acta de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `2026-02-26__cd-acta__p101-s027__part-02.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/CLUB-FERRO-CARRIL-OESTE.pdf |  |
+| 2026-02-26 | 2026-04-08 | Acta de Comisión Directiva | P101-S027 | PERÍODO 101° DE CD – 27 SESIÓN ORDINARIA Y BALANCE | `2026-02-26__cd-acta__p101-s027__part-01.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/04/PERIODO-101°de-COMISION-DIRECTIVA.pdf |  |
 | 2026-01-30 | 2026-02-03 | Acta de Comisión Directiva | P101-S025 | PERÍODO 101° DE CD – 25° SESIÓN ORDINARIA | `2026-01-30__cd-acta__p101-s025.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/02/CamScanner-30-01-2026-15.12.pdf |  |
 | 2025-12-05 | 2025-12-08 | Acta de Comisión Directiva | P101-S023 | PERÍODO 101° DE CD – 23° SESIÓN ORDINARIA | `2025-12-05__cd-acta__p101-s023.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2025/12/CamScanner-05-12-2025-10.28.pdf |  |
 | 2025-09-18 | 2025-11-03 | Acta de Comisión Directiva | P101-S022 | CD – SEPTIEMBRE 2025 | `2025-09-18__cd-acta__p101-s022.docx` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2025/11/Sept.actafinal.docx | Fuente original en Word. |
