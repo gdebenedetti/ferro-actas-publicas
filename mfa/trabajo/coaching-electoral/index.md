@@ -2,11 +2,11 @@
 
 Documento interno de preparación. Inicio: 6 de septiembre de 2026.
 
-Versión vigente: **v0.2.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
+Versión vigente: **v0.3.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
 
 ## Encuadre recibido
 
-- Elección del 27 de septiembre de 2026, confirmada por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719). Resolución completa y composición de la Junta pendientes de incorporación.
+- Elección del 27 de septiembre de 2026, confirmada por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719). El equipo informó la composición de la Junta; acta o resolución oficial pendientes de incorporación.
 - Debate en Ferro Web previsto para el 24 de septiembre, confirmado por el usuario; participación, formato, reglas y publicación posterior pendientes de confirmación documental del organizador.
 - Escenario base: entrevistas exigentes o adversas, con interrupciones, preguntas con premisas discutibles, repreguntas y presión de tiempo.
 - La cercanía de medios con Identidad Verdolaga y Somos Ferro es una lectura aportada por el usuario. No se registra como hecho demostrado sobre cada medio o periodista.

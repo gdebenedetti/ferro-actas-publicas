@@ -1,5 +1,17 @@
 # Changelog del research electoral
 
+## [v0.3.0] — 2026-09-08
+
+### Agregado
+
+- Composición de Junta Electoral informada por el equipo: Francisco Croccioni, Luis Bilancieri y Ramiro San Juan como titulares; Ariel Garrido y Gastón Albornoz como suplentes.
+- Atribución comunicada: cuatro integrantes de Identidad Verdolaga y uno de Somos Ferro; sin integrante de MFA en la información recibida.
+- Preguntas de simulación específicas sobre representación, pluralidad y legitimidad.
+
+### Estado
+
+- La composición está registrada como declaración aportada por el equipo. Falta acta, resolución o comunicación oficial para elevarla a `documento-confirmado`.
+
 ## [v0.2.0] — 2026-09-08
 
 ### Agregado
@@ -40,4 +52,4 @@
 
 ## Próxima versión sugerida
 
-`v0.3.0` cuando se incorpore nueva evidencia primaria sobre Junta, candidaturas, debate o entrevistas actuales.
+`v0.4.0` cuando se incorpore nueva evidencia primaria sobre Junta, candidaturas, debate o entrevistas actuales.
