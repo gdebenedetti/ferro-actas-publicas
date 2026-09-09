@@ -10,7 +10,7 @@
 
 ### Precaución
 
-- Se marcan como posibles errores de transcripción las formas “Patricio Mayo”, “Darío Cuba” y “Alejandro López Niéres”, frente a los nombres consignados en la publicación de FerroWeb.
+- Se corrigen editorialmente los nombres a Patricio Baigorrotegui, Darío Silva y Alejandro López Mieres, según la publicación original; “Mayo/Cuba/Niéres” queda registrado sólo como error bruto de transcripción.
 - La transcripción queda en `transcript-localizado`; no equivale todavía a `audio-confirmado`.
 
 ## [v0.4.0] — 2026-09-08

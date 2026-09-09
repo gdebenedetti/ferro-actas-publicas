@@ -14,7 +14,7 @@ El texto visible de FerroWeb informa que el día anterior se presentó la lista 
 | Candidato a vicepresidente 1.º | Darío Silva |
 | Candidato a vicepresidente 2.º | Alejandro López Mieres |
 
-La transcripción recibida en este hilo utiliza formas diferentes para algunos nombres (“Patricio Mayo”, “Darío Cuba” y “Alejandro López Niéres”). Se conservan como **posibles errores de transcripción** hasta contrastarlos con el audio y la nómina oficial; no se los trata como nombres alternativos.
+La transcripción recibida en este hilo deformó algunos nombres. La publicación original permite normalizarlos sin ambigüedad como **Patricio Baigorrotegui, Darío Silva y Alejandro López Mieres**. Las formas “Patricio Mayo”, “Darío Cuba” y “Alejandro López Niéres” se conservan sólo como errores brutos del texto recibido.
 
 La publicación anuncia además que **el debate se realizará el 24 de septiembre en FerroWeb**. El texto no informa formato, duración, moderación, reglas de repregunta, orden de presentación ni condiciones de participación.
 
@@ -58,7 +58,7 @@ La entrevista presenta a los tres candidatos y desarrolla cinco bloques:
 >
 > También mencionaron además de la situación, hablaron de una auditoría. Contanos un poco de qué se trata. Sí, por supuesto, nosotros cuando seamos una nueva conducción del club vamos a documentar todo lo que recibimos al club, bajo qué condiciones. Esto no es una casa de brujas, sino simplemente decir a ver, el club lo recibimos bajo estas condiciones, porque nosotros vamos a tener una responsabilidad legal con esta gestión, somos muy conscientes. Vamos a ver exactamente cuál es el stock de pasivos, qué cheques hay dando vueltas. Esto se va a quedar documentado y después sí con el tiempo vamos a ir un poco para atrás para ordenar las cuentas y ver realmente que esté todo ordenado y transparente como queremos nosotros. Bueno, bárbaro. 12 años atrás, la primera elección, Ferro Web organizó un debate presidencial.
 
-La puntuación, los nombres y las palabras dudosas se conservan tal como fueron recibidos. No usar comillas atribuidas ni cifras en público hasta completar el contraste auditivo.
+La transcripción se conserva como registro bruto, pero para el análisis se normalizan los nombres según la publicación original: Patricio Baigorrotegui, Darío Silva y Alejandro López Mieres. Las palabras dudosas y las cifras todavía requieren contraste auditivo antes de usar comillas atribuidas en público.
 
 ## Utilidad para el coaching de MFA
 
