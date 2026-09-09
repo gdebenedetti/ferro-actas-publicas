@@ -1,5 +1,17 @@
 # Changelog del research electoral
 
+## [v0.4.0] — 2026-09-08
+
+### Agregado
+
+- Nota de la publicación de FerroWeb sobre la presentación de Somos Ferro y las entrevistas a Patricio Baigorrotegui, Darío Silva y Alejandro López Mieres.
+- Registro del anuncio público del debate del 24/9 y de sus datos todavía no publicados: formato, reglas, moderación y participantes.
+- Estado de transcripción del video: pista automática detectada sin cues exportables; preguntas y respuestas quedan pendientes de revisión auditiva.
+
+### Criterio
+
+- Se incorporan sólo el texto visible del post y los metadatos observables del video. No se atribuyen propuestas ni respuestas no verificadas.
+
 ## [v0.3.1] — 2026-09-08
 
 ### Corregido

@@ -1,6 +1,6 @@
 # Argumentario comparativo y simulación de entrevistas
 
-Versión de trabajo: **v0.3.1 — 8 de septiembre de 2026**
+Versión de trabajo: **v0.4.0 — 8 de septiembre de 2026**
 Uso: preparación interna de Movimiento Ferro en Acción. No es una plataforma electoral ni una ficha de candidatos.
 
 ## 1. Qué falta cerrar antes de usarlo como argumentario público
@@ -41,6 +41,8 @@ La fecha queda incorporada como **información confirmada por el usuario**, pero
 - posibilidad de repregunta y derecho a réplica;
 - reglas sobre documentos, gráficos, interrupciones y cierre;
 - transmisión, grabación y disponibilidad posterior.
+
+La [publicación de FerroWeb del 6/9](https://x.com/ferroweb/status/2096699064297341184) aporta una confirmación pública adicional del anuncio y consigna como fórmula de Somos Ferro a Patricio Baigorrotegui, Darío Silva y Alejandro López Mieres. El video adjunto dura aproximadamente 6:56; sus preguntas y respuestas todavía no están transcriptas de forma utilizable, por lo que no se agregan posiciones programáticas basadas en ese audio.
 
 El formato es parte de la estrategia. Un debate con preguntas de 30 segundos exige respuestas de impacto inmediato; uno con bloques temáticos permite llevar documentos y explicar costos.
 

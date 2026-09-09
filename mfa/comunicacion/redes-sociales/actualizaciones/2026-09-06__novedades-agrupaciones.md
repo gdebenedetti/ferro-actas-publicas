@@ -129,6 +129,12 @@ No se produjo un ranking electoral ni un cálculo de engagement con universos in
 - El usuario confirmó que habrá debate en Ferro Web el 24/9. Convocatoria, formato, participantes, reglas y publicación posterior siguen pendientes de confirmación documental del organizador.
 - Cubrir un acto no demuestra alineamiento político. La hipótesis de medios adversos sirve para el simulacro, no como acusación probada sobre periodistas.
 
+### Nueva pieza: FerroWeb y Somos Ferro (consulta 8/9)
+
+La [publicación de FerroWeb en X](https://x.com/ferroweb/status/2096699064297341184) informa la presentación de la fórmula de Somos Ferro y consigna como principales candidatos a Patricio Baigorrotegui (presidente), Darío Silva (vicepresidente 1.º) y Alejandro López Mieres (vicepresidente 2.º). También anuncia que el debate será el 24/9 en FerroWeb. El video del post dura aproximadamente 6:56.
+
+La página expone una pista automática en español, pero no entregó cues ni una transcripción exportable en la consulta. Por esa razón no se registran todavía preguntas, respuestas, cifras ni compromisos del audio. El detalle de la pieza y sus pendientes está en [la nota de coaching](../../../trabajo/coaching-electoral/2026-09-08__ferroweb-presentacion-somos-ferro.md).
+
 ## 8. Prioridades documentales y simulaciones
 
 Las siguientes son preguntas internas de práctica, no preguntas observadas ni atribuidas a un medio.
