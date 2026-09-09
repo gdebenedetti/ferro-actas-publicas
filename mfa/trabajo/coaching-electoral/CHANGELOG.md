@@ -1,5 +1,18 @@
 # Changelog del research electoral
 
+## [v0.5.0] — 2026-09-09
+
+### Agregado
+
+- Transcripción aportada por el equipo del segmento de FerroWeb con Patricio, Darío y Alejandro.
+- Bloques de análisis sobre gestión, renovación dirigencial, déficit, descubierto bancario, equipo financiero, sponsors, auditoría y primeros 90 días.
+- Preguntas hostiles derivadas de esas afirmaciones y controles documentales exigidos antes de usarlas como evidencia.
+
+### Precaución
+
+- Se marcan como posibles errores de transcripción las formas “Patricio Mayo”, “Darío Cuba” y “Alejandro López Niéres”, frente a los nombres consignados en la publicación de FerroWeb.
+- La transcripción queda en `transcript-localizado`; no equivale todavía a `audio-confirmado`.
+
 ## [v0.4.0] — 2026-09-08
 
 ### Agregado

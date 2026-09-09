@@ -2,7 +2,7 @@
 
 ## Versión vigente
 
-**v0.4.0 — 2026-09-08**
+**v0.5.0 — 2026-09-09**
 
 Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
 
@@ -11,6 +11,8 @@ La versión incorpora la primera matriz comparativa y el protocolo de simulació
 También registra la composición oficial de Junta Electoral comunicada al equipo, sin exponer detalles internos de la negociación.
 
 Se agrega la nota de FerroWeb sobre la presentación de Somos Ferro, con la fórmula consignada, el anuncio del debate del 24/9 y la limitación documentada de la transcripción del video.
+
+Se incorpora la transcripción aportada por el equipo, con estado `transcript-localizado`, discrepancias nominales señaladas y una matriz de afirmaciones financieras y de auditoría que requiere contraste con audio y documentos.
 
 ## Alcance de v0.1.0
 
