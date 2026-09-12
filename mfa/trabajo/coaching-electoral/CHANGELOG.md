@@ -1,5 +1,18 @@
 # Changelog del research electoral
 
+## [v0.7.0] — 2026-09-12
+
+### Agregado
+
+- Entrevista de Hablemos de Ferro a Patricio Baigorrotegui, tramo 26:40–cierre, con transcript automático exportado.
+- Registro de sus bloques sobre impugnación electoral, finanzas, sponsors, marketing, fútbol, estadio, Pontevedra, SAD, empleados y básquet.
+- Clasificación de la pieza como entrevista facilitadora/favorable por su formato y encuadre, sin convertir esa lectura en una acusación de alineamiento político.
+- Preguntas hostiles para validar cifras, permisos, contratos, costos y promesas de gestión.
+
+### Precaución
+
+- Las cifras del video —déficits, ingresos, descubierto, patrocinios, empleados y presupuestos— quedan pendientes de contraste documental.
+
 ## [v0.6.0] — 2026-09-12
 
 ### Agregado

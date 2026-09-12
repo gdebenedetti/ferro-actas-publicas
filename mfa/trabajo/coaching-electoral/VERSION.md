@@ -2,7 +2,7 @@
 
 ## Versión vigente
 
-**v0.6.0 — 2026-09-12**
+**v0.7.0 — 2026-09-12**
 
 Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
 
@@ -15,6 +15,8 @@ Se agrega la nota de FerroWeb sobre la presentación de Somos Ferro, con la fór
 Se incorpora la transcripción aportada por el equipo, con estado `transcript-localizado`, discrepancias nominales señaladas y una matriz de afirmaciones financieras y de auditoría que requiere contraste con audio y documentos.
 
 Se incorpora la fórmula comunicada por Identidad Verdolaga y su mensaje de continuidad, con separación entre texto de campaña, promesas y afirmaciones que requieren respaldo documental.
+
+Se incorpora la entrevista extensa de Hablemos de Ferro a Patricio Baigorrotegui, con clasificación de tono facilitador, bloques temáticos, cifras sensibles y preguntas hostiles derivadas.
 
 ## Alcance de v0.1.0
 

@@ -1,6 +1,6 @@
 # Corpus de entrevistas, debates y asambleas para coaching
 
-Corte de incorporación: 6 de septiembre de 2026. El usuario aportó nueve videos públicos de Ferro Web y El Show de Ferro. Se revisaron títulos, duración visible y transcript exportable desde YouTube cuando estuvo disponible. Las transcripciones son automáticas; sirven para localizar temas, no para citar literalmente cifras, nombres, negaciones o imputaciones sin volver al audio.
+Corte de incorporación: 12 de septiembre de 2026. El usuario aportó videos públicos de Ferro Web y El Show de Ferro. Se revisaron títulos, duración visible y transcript exportable desde YouTube cuando estuvo disponible. Las transcripciones son automáticas; sirven para localizar temas, no para citar literalmente cifras, nombres, negaciones o imputaciones sin volver al audio.
 
 ## Inventario
 
@@ -15,6 +15,7 @@ Corte de incorporación: 6 de septiembre de 2026. El usuario aportó nueve video
 | [8QEikZddnwI](https://www.youtube.com/watch?v=8QEikZddnwI) | FerroWeb — Asamblea General Ordinaria 2023 | Memoria y balance del ejercicio 2022–23; padrón de asamblea y exposición financiera. | Disponible | Inflación, pasivo, patrimonio, efectivo y preguntas de socios. |
 | [JQxgi3POpaM](https://www.youtube.com/watch?v=JQxgi3POpaM) | El Show de Ferro — Guillermo Bameule, 29/08/2023 | Entrevista a dirigente/candidato en contexto deportivo y electoral. | Disponible | Balance deportivo, elección de técnico, asesoramiento, inferiores, Pontevedra y obras. |
 | [KhyVBYkH5-c](https://www.youtube.com/watch?v=KhyVBYkH5-c) | Entrevista a Daniel Pandolfi — Hablemos de Ferro | Entrevista telefónica; continuidad del técnico, balance de gestión, tribuna, habilitación y transferencias. | Disponible | Preguntas con premisas, resultados vs proyecto, obras con fecha y financiamiento. |
+| [ZKREqKp4DVM](https://youtu.be/ZKREqKp4DVM?t=1605) | Hablemos de Ferro — entrevista a Patricio Baigorrotegui | Tramo 26:40–cierre; elecciones, finanzas, fútbol, estadio, Pontevedra, SAD, empleados y básquet. | Auto-generado, exportado | Entrevista favorable, validación de cifras, promesas de campaña y repregunta hostil. |
 
 La falta de transcript no significa que el video carezca de contenido: queda como fuente audiovisual para una segunda pasada con timestamps. El título del primer video recibido en el hilo ([Nzy0HYZuvV8](https://www.youtube.com/watch?v=Nzy0HYZuvV8)) sigue registrado por separado como entrevista a Patricio Baigorrotegui.
 
