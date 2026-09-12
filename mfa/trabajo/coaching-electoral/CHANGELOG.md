@@ -1,5 +1,17 @@
 # Changelog del research electoral
 
+## [v0.6.0] — 2026-09-12
+
+### Agregado
+
+- Fórmula comunicada por Identidad Verdolaga: Daniel Alcaraz, Raúl Seguí y Fabián Lértora.
+- Registro del lema “Ferro no se detiene” y de los ejes de continuidad: fútbol, deportes, obras y recuperación institucional.
+- Preguntas hostiles para exigir precisión sobre resultados, costos, plazos, indicadores y control.
+
+### Criterio
+
+- Las afirmaciones sobre la quiebra, el plan de obras y los recursos de las actividades quedan como declaraciones de campaña hasta contar con documentación independiente.
+
 ## [v0.5.0] — 2026-09-09
 
 ### Agregado

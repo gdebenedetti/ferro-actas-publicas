@@ -83,6 +83,10 @@ Fuente directa: [@IdenVerdolaga](https://x.com/IdenVerdolaga), identificada en e
 
 **Vacíos:** no se confirmó en esta pasada una plataforma electoral 2026 de IV, nómina completa ni Instagram oficial. El PDF de Ferroweb encontrado en una ruta de **elecciones2014** se excluyó como plataforma actual. La existencia de publicaciones de junio y anteriores también aconseja revisar si el baseline subrepresentaba su actividad, no asumir que toda la campaña empezó después.
 
+### Fórmula y mensaje de continuidad (consulta 12/9)
+
+La [publicación de @IdenVerdolaga](https://x.com/IdenVerdolaga) presenta a **Daniel Alcaraz, Raúl Seguí y Fabián Lértora** como encabezamiento de la lista. Su mensaje central es “Ferro no se detiene” y propone continuar el proyecto futbolístico, el crecimiento de las actividades, el plan de obras y la etapa de recuperación institucional posterior a la quiebra. Se registra como comunicación de campaña: las afirmaciones sobre obras, crisis, recursos y resultados requieren documentación independiente. El análisis para coaching está en [la nota específica](../../../trabajo/coaching-electoral/2026-09-12__identidad-verdolaga-formula-y-mensaje.md).
+
 ## 4. Movimiento Ferro en Acción: piezas para sumar a la preparación
 
 | Fecha | Fuente | Incorporación |

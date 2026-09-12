@@ -2,7 +2,7 @@
 
 Documento interno de preparación. Inicio: 6 de septiembre de 2026.
 
-Versión vigente: **v0.5.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
+Versión vigente: **v0.6.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
 
 ## Encuadre recibido
 
@@ -18,6 +18,7 @@ Versión vigente: **v0.5.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md
 - [Corpus de entrevistas históricas y asambleas — 6 de septiembre](2026-09-06__corpus-entrevistas-historicas-y-asambleas.md): nueve videos nuevos, disponibilidad de transcript, patrones de preguntas y banco de simulación.
 - [Argumentario comparativo y simulación — 8 de septiembre](2026-09-08__argumentario-comparativo-y-simulacion.md): matriz temática, protocolo de validación, rondas hostiles y base para simulación de voz.
 - [FerroWeb: presentación de Somos Ferro y entrevistas — 8 de septiembre](2026-09-08__ferroweb-presentacion-somos-ferro.md): texto visible del post, fórmula consignada, anuncio del debate y estado de la transcripción del video.
+- [Identidad Verdolaga: fórmula y mensaje de continuidad — 12 de septiembre](2026-09-12__identidad-verdolaga-formula-y-mensaje.md): encabezamiento de lista, lema, promesas y preguntas hostiles derivadas.
 - [Repaso del proyecto y repositorios para coaching — 6 de septiembre](2026-09-06__repaso-documental-para-coaching.md): inventario, hallazgos, preguntas difíciles y pendientes.
 - Primera entrevista recibida: [Patricio Baigorrotegui / Somos Ferro](https://www.youtube.com/watch?v=Nzy0HYZuvV8), publicada por ferrocarriloeste.com.ar. Se consultaron subtítulos automáticos en este hilo; la fecha de publicación y los pasajes críticos siguen pendientes de validación. La lectura anterior del hilo es preliminar.
 
