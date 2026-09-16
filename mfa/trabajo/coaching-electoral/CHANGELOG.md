@@ -1,5 +1,20 @@
 # Changelog del research electoral
 
+## [v0.8.0] — 2026-09-16
+
+### Agregado
+
+- Actualización operativa y comparativa basada en los hilos recientes del proyecto.
+- Integración de la plataforma de Somos Ferro del 12/9 como base para preguntas sobre costos, responsables, plazos e indicadores.
+- Módulo de padrón y elegibilidad: el padrón oficial 2026 continúa pendiente y las coberturas históricas no se presentan como vigentes.
+- Clasificación de entrevistas por tono y conductas observables, manteniendo el entrenamiento hostil como escenario base.
+- Checklist del debate del 24/9 y priorización de las próximas tareas de coaching.
+
+### Precaución
+
+- No se incorporan detalles internos de la Junta Electoral.
+- Las posiciones concretas de MFA y las cifras no documentadas permanecen pendientes de definición o validación.
+
 ## [v0.7.0] — 2026-09-12
 
 ### Agregado
