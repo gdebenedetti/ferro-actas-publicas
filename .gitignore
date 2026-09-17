@@ -1,5 +1,13 @@
 __pycache__/
 *.pyc
+.firecrawl/
+
+# Local generated research and preview artifacts
+.tmp/
+health-gallery-*.png
+*.inspect.ndjson
+*.DS_Store
+.worktrees/
 
 # Local verification artifacts
 .playwright-mcp/
@@ -7,4 +15,7 @@ ferro-mobile-*.png
 
 # Embedded subproject repository
 ferro-en-accion-web/
+padron-ferro-en-accion-web/
+padron-ferro-en-accion-web-2025/
+padron-ferro-en-accion-web-analytics/
 MFA-agente-WhatsApp/
