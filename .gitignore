@@ -8,6 +8,8 @@ health-gallery-*.png
 *.inspect.ndjson
 *.DS_Store
 .worktrees/
+mfa/trabajo/presentaciones/*/slide-*.png
+mfa/trabajo/web-borradores/recursos/**/*.mp4
 
 # Local verification artifacts
 .playwright-mcp/
@@ -19,3 +21,8 @@ padron-ferro-en-accion-web/
 padron-ferro-en-accion-web-2025/
 padron-ferro-en-accion-web-analytics/
 MFA-agente-WhatsApp/
+
+# Superseded or derived local captures
+archivo-club/actas-asamblea/balances/*__ocr.pdf
+archivo-club/elecciones/padrones/2018-07__estatuto-club-ferro.pdf
+mfa/trabajo/web-borradores/comparativa-somos-ferro-vs-ferro-en-accion-2026-09-05.md
