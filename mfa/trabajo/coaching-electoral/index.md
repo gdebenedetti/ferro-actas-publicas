@@ -21,6 +21,7 @@ Versión vigente: **v0.8.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md
 - [Identidad Verdolaga: fórmula y mensaje de continuidad — 12 de septiembre](2026-09-12__identidad-verdolaga-formula-y-mensaje.md): encabezamiento de lista, lema, promesas y preguntas hostiles derivadas.
 - [Entrevista Hablemos de Ferro a Patricio Baigorrotegui — 12 de septiembre](2026-09-12__entrevista-hablemos-de-ferro-patricio-baigorrotegui.md): tramo 26:40–cierre, tono facilitador, propuestas, cifras sensibles y preguntas hostiles.
 - [Actualización operativa y comparativa — 16 de septiembre](2026-09-16__actualizacion-operativa-y-comparativa.md): plataforma actualizada de Somos Ferro, padrón 2026 pendiente, clasificación de medios y checklist del debate.
+- [Entrevista a Pedro Masó en Solo x Deporte — 23 de julio](2026-09-17__entrevista-pedro-maso-soloxdeporte.md): ejes públicos de MFA, renovación, fútbol integral, participación, cifras electorales y preguntas derivadas.
 - [Repaso del proyecto y repositorios para coaching — 6 de septiembre](2026-09-06__repaso-documental-para-coaching.md): inventario, hallazgos, preguntas difíciles y pendientes.
 - Primera entrevista recibida: [Patricio Baigorrotegui / Somos Ferro](https://www.youtube.com/watch?v=Nzy0HYZuvV8), publicada por ferrocarriloeste.com.ar. Se consultaron subtítulos automáticos en este hilo; la fecha de publicación y los pasajes críticos siguen pendientes de validación. La lectura anterior del hilo es preliminar.
 

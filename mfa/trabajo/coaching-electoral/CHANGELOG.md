@@ -1,5 +1,18 @@
 # Changelog del research electoral
 
+## [v0.9.0] — 2026-09-17
+
+### Agregado
+
+- Entrevista de Pedro Masó en Splendid AM 990 / Solo x Deporte, fechada el 23/7/2026.
+- Registro de sus ejes públicos: participación de socios, fútbol y básquet, renovación dirigencial, director deportivo, plan integral de fútbol, obras a diez años y unidad.
+- Preguntas hostiles para exigir precisión sobre padrón, votantes, funciones, costos, plazos y controles.
+
+### Precaución
+
+- Los subtítulos automáticos contienen errores de nombres y palabras; se conserva el estado de transcripción localizada, no de audio-confirmada.
+- Las cifras de socios y votantes y el plan de obras quedan pendientes de documentación primaria.
+
 ## [v0.8.0] — 2026-09-16
 
 ### Agregado

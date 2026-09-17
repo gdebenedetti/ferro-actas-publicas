@@ -2,11 +2,11 @@
 
 ## Versión vigente
 
-**v0.8.0 — 2026-09-16**
+**v0.9.0 — 2026-09-17**
 
 Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
 
-La versión incorpora una actualización operativa y comparativa: plataforma reciente de Somos Ferro, estado del padrón 2026, clasificación de tonos de entrevista y checklist del debate del 24/9. Las posiciones específicas de MFA siguen requiriendo definición del equipo.
+La versión incorpora la entrevista pública a Pedro Masó, jefe de campaña de Ferro en Acción, con sus ejes sobre participación, renovación, fútbol integral, infraestructura y unidad. También mantiene la actualización operativa y comparativa de la versión anterior. Las posiciones específicas de MFA y las cifras electorales siguen requiriendo definición o validación documental.
 
 También registra la composición oficial de Junta Electoral comunicada al equipo, sin exponer detalles internos de la negociación.
 
@@ -17,6 +17,13 @@ Se incorpora la transcripción aportada por el equipo, con estado `transcript-lo
 Se incorpora la fórmula comunicada por Identidad Verdolaga y su mensaje de continuidad, con separación entre texto de campaña, promesas y afirmaciones que requieren respaldo documental.
 
 Se incorpora la entrevista extensa de Hablemos de Ferro a Patricio Baigorrotegui, con clasificación de tono facilitador, bloques temáticos, cifras sensibles y preguntas hostiles derivadas.
+
+## Alcance de v0.9.0
+
+- Entrevista a Pedro Masó en Splendid AM 990 / Solo x Deporte, fechada el 23/7/2026.
+- Ejes localizados de MFA: participación de socios, prioridad del fútbol sin descuidar disciplinas, renovación de la conducción, director deportivo, plan integral de fútbol, obras a diez años y unidad posterior a la elección.
+- Correcciones y límites de subtítulos automáticos, con cifras de socios y votantes en estado pendiente.
+- Preguntas hostiles derivadas para transformar mensajes generales en mecanismos, responsables, plazos y controles.
 
 ## Alcance de v0.8.0
 
