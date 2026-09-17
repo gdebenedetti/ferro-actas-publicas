@@ -27,7 +27,7 @@ Recomendación de mayor impacto: actualizar Comunidad con una subprioridad de cu
 - Las métricas de X se anotan sólo cuando la interfaz mostró “Visualizaciones”. No se interpretan los números de botones sin etiqueta ni se comparan métricas entre plataformas.
 - Las fechas de las publicaciones se tomaron de la fecha visible/metadatos de cada publicación, no de las solicitudes de medios.
 - X permitió descargar 17 JPEG, incluida la portada del video del 25/08, mediante los recursos públicos visibles en Chrome. El video de X sólo quedó disponible como portada: el reproductor usó una URL blob: y no se obtuvo un MP4.
-- Instagram permitió descargar 19 JPEG nuevos de trece publicaciones directas —las doce piezas principales y Dbd3poniaFo, abierta directamente por su relevancia— y recuperar fragmentos DASH de cinco Reels. El bundler devolvió `TypeError: Failed to fetch`, pero la reproducción visible permitió descargar los rangos de video/audio y ensamblar cinco MP4 completos verificados. No se reemplazó ningún recurso por otra fuente.
+- Instagram permitió descargar 19 JPEG nuevos de trece publicaciones directas —las doce piezas principales y Dbd3poniaFo, abierta directamente por su relevancia— y recuperar localmente fragmentos DASH de cinco Reels. El bundler devolvió `TypeError: Failed to fetch`, pero la reproducción visible permitió descargar los rangos de video/audio y verificar cinco MP4 completos. Los videos quedan fuera del repositorio por su tamaño; no se reemplazó ningún recurso por otra fuente.
 
 ## Publicaciones de X relevadas
 
@@ -136,20 +136,12 @@ Los archivos están en [recursos/revision-redes-2026-08-28/](./recursos/revision
 | Imágenes JPEG de X | 17 | [`recursos/.../x/`](./recursos/revision-redes-2026-08-28/x/) | Descargadas: cuatro, dos, una portada, cuatro, una, cuatro y una, en ese orden para las siete publicaciones solicitadas. |
 | Imágenes JPEG nuevas de Instagram | 19 | [`recursos/.../instagram/`](./recursos/revision-redes-2026-08-28/instagram/) | Descargadas para las trece publicaciones directas revisadas; el mapeo exacto está en el README de recursos. |
 | Imágenes JPEG preexistentes | 7 | Raíz de [`recursos/.../`](./recursos/revision-redes-2026-08-28/) | Conservadas sin reemplazar; no se usan para completar atribuciones nuevas. |
-| Fragmentos DASH de Instagram | 141 | [`recursos/.../instagram/`](./recursos/revision-redes-2026-08-28/instagram/) | Video/audio MP4 por rangos de bytes; se conservan como trazabilidad técnica. |
-| MP4 completos de Instagram | 5 nuevos | [`instagram/ensamblados/`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/) | Verificados con `ffprobe`: VP9/AAC, audio presente y duración coincidente con la reproducción visible. |
+| Fragmentos DASH de Instagram | 141 | Captura local no versionada | Video/audio MP4 por rangos de bytes; se conservaron sólo durante la verificación técnica. |
+| MP4 completos de Instagram | 5 nuevos | Captura local no versionada | Verificados con `ffprobe`: VP9/AAC, audio presente y duración coincidente con la reproducción visible; no se versionan por su tamaño. |
 
-### MP4 completos verificados
+### Videos verificados fuera del repositorio
 
-| Publicación | Archivo | Duración / dimensiones |
-| --- | --- | --- |
-| [DcefpGPyQw4](https://www.instagram.com/ferroenaccion/reel/DcefpGPyQw4/) | [`instagram-2026-08-25-salud-mental-politica-completo.mp4`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/instagram-2026-08-25-salud-mental-politica-completo.mp4) | 84,01 s; 1080×1920 |
-| [DcZPieYipCf](https://www.instagram.com/ferroenaccion/reel/DcZPieYipCf/) | [`instagram-2026-08-23-previa-local-completo.mp4`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/instagram-2026-08-23-previa-local-completo.mp4) | 13,89 s; 720×1280 |
-| [DbZTE0zjseE](https://www.instagram.com/ferroenaccion/reel/DbZTE0zjseE/) | [`instagram-2026-07-29-aniversario-reel-completo.mp4`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/instagram-2026-07-29-aniversario-reel-completo.mp4) | 62,90 s; 1080×1920 |
-| [DbHR7c1D4hS](https://www.instagram.com/ferroenaccion/reel/DbHR7c1D4hS/) | [`instagram-2026-07-22-equipo-profesional-completo.mp4`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/instagram-2026-07-22-equipo-profesional-completo.mp4) | 101,15 s; 720×1280 |
-| [DbDvDN_lJdt](https://www.instagram.com/ferroenaccion/reel/DbDvDN_lJdt/) | [`instagram-2026-07-21-documento-historico-completo.mp4`](./recursos/revision-redes-2026-08-28/instagram/ensamblados/instagram-2026-07-21-documento-historico-completo.mp4) | 92,53 s; 720×1280 |
-
-Los cinco MP4 sin el sufijo `-completo` son ensamblados parciales anteriores, conservados sin reemplazar y no aptos para implementación.
+Los cinco MP4 completos fueron ensamblados y verificados localmente a partir de los recursos de las publicaciones `DcefpGPyQw4`, `DcZPieYipCf`, `DbZTE0zjseE`, `DbHR7c1D4hS` y `DbDvDN_lJdt`. No se incorporan al repositorio. Los cinco intentos parciales anteriores tampoco se versionan.
 
 ### JPEG preexistentes retenidos
 
