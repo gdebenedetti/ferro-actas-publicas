@@ -4,7 +4,7 @@ Este informe compara la presencia pública de las agrupaciones que aparecen en e
 
 ## Método
 
-- Corte de evidencia: **2026-06-25**.
+- Corte de huella pública comparable: **2026-06-25**; actualización programática de Somos Ferro: **2026-09-12**.
 - Fuentes: publicaciones públicas en X e Instagram, webs oficiales, linktrees, PDFs públicos y perfiles visibles desde navegador autenticado cuando el acceso anónimo no expuso contenido.
 - Criterio de lectura: sólo se registran datos públicos visibles. No se infieren seguidores, métricas privadas ni integrantes nominales si no aparecen en la fuente.
 - `Somos Ferro` se analiza como bloque único, aunque sus subcuentas y piezas nazcan de una coalición.
@@ -20,6 +20,22 @@ Este informe compara la presencia pública de las agrupaciones que aparecen en e
 | Unidos por Oeste | No se relevó web propia | `@unidosxoeste` | `@unidosxoeste` | No relevado | 26 publicaciones en IG; 780 seguidores en IG; 234 seguidores en X; 65 posts en X |
 | Identidad Verdolaga | No se relevó web propia | No se relevó | `@IdenVerdolaga` | No relevado | 25 posts en X; 257 seguidores en X |
 | Todo Verde | No se relevó web propia | No se relevó | `@somostodoverde` | No relevado | 93 posts en X; 529 seguidores en X |
+
+## Comparativa programática actualizada: Somos Ferro vs. Ferro en Acción
+
+La [matriz programática de la Plataforma Somos Ferro](./plataforma-somos-ferro-2026-09-12.md) permite corregir una comparación demasiado centrada en presencia digital. Somos Ferro presenta 30 propuestas en cinco ejes; Ferro en Acción tiene una plataforma web modular, con CIARF, profesionalización, participación, transparencia, patrimonio y rechazo a las SAD.
+
+| Dimensión | Somos Ferro | Ferro en Acción | Lectura comparativa |
+| --- | --- | --- | --- |
+| Cobertura | 30 propuestas: deportes, infraestructura, socios, finanzas e institucional. | Plataforma y páginas temáticas con desarrollo editorial separado. | SF tiene mayor enumeración en un documento único; MFA tiene mayor desagregación navegable. |
+| Fútbol y deporte | Oficina de Fútbol, 15% de reinversión, salud, emergencias, básquet y adultos mayores. | Proyecto integral, CIARF, profesionalización y formación. | Convergencia alta; la regla del 15% y el objetivo de tres minutos requieren definición operativa. |
+| Infraestructura | Estadio, Platea Sur, Avellaneda, Pontevedra, mantenimiento y seguridad. | Patrimonio, planificación, CIARF e infraestructura deportiva. | SF nombra más frentes físicos; ninguna fuente consultada acredita presupuesto o cronograma integral. |
+| Socios | Digitalización, relevamiento, charlas, vitalicios, seguridad y gastronomía. | Participación, reuniones abiertas, contacto y comunidad. | SF detalla más servicios; MFA enfatiza participación y control social. |
+| Finanzas | Línea de base, plan económico, presupuestos con control mensual y marca. | Transparencia, cuentas claras, planificación y rendición. | Convergencia fuerte con distinto nivel de instrumentalización pública. |
+| Institucional | Organigrama, Estatuto, empleados, escuela, Fundación y estudio. | Profesionalización, controles, club de socios y no SAD. | SF agrega dispositivos concretos; MFA explicita con más claridad el límite societario y político. |
+| Ejecución | El PDF no identifica presupuesto consolidado, cronograma integral ni responsables nominales. | La plataforma también debe distinguir propuesta de ejecución y decisión aprobada. | La diferencia decisiva pendiente es viabilidad verificable, no cantidad de propuestas. |
+
+La comparación detallada, con las 30 propuestas numeradas y preguntas de contraste, queda en el documento específico enlazado arriba.
 
 ## Comparativa de posicionamiento
 

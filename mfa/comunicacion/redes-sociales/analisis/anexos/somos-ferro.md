@@ -1,6 +1,8 @@
 # Anexo: Somos Ferro
 
-Corte documental: **2026-06-25**.
+Corte de huella pública: **2026-06-25**.
+
+Actualización de plataforma: **2026-09-12**.
 
 ## Perfil y huella pública
 
@@ -28,6 +30,28 @@ Corte documental: **2026-06-25**.
 - La portada insiste en valores, pertenencia, respeto, trabajo, profesionalismo, participación, transparencia, compromiso y unión.
 - Hay un formulario de captación con nombre, email, WhatsApp y una pregunta abierta sobre cómo colaborar.
 - El sitio funciona como centro de conversión y no sólo como vitrina.
+
+## Plataforma programática
+
+El documento público [PlataformaSomosFerro.pdf](https://somosferro.com.ar/assets/PlataformaSomosFerro.pdf) es una única página vertical. La copia consultada el 12/09/2026 coincide byte a byte con la copia archivada el 06/09/2026. Sus metadatos indican creación el 04/09/2026; ese dato no prueba la fecha de publicación.
+
+La estructura es: presentación, diagnóstico, visión (“Acerca del Club que queremos”) y 30 propuestas agrupadas en cinco ejes. El contenido combina medidas operativas, obras, reformas normativas y proyectos de marca/comunicación; por eso no debe leerse como un cronograma financiado ni como decisiones ya aprobadas.
+
+| Eje | Propuestas | Núcleo observable |
+| --- | --- | --- |
+| Deportes | 1–6 | Oficina de Fútbol y formación propia; reinversión del 15% de transferencias de inferiores; subsecretaría deportiva; cuidado integral y emergencias; básquet; deportes para adultos mayores. |
+| Infraestructura | 7–13 | Desarrollo del estadio y Platea Sur; subsecretaría de infraestructura; filtraciones y mantenimiento; parrillas; accesos y seguridad; frente de Avellaneda; recuperación de Pontevedra. |
+| Socios | 14–19 | Trámites y credencial digitales; comunicación y charlas; conocimiento del socio; seguridad; espacio para vitalicios; gastronomía. |
+| Finanzas | 20–23 | Plan económico sostenible; línea de base y comunicación del estado financiero; presupuestos y control; puesta en valor de la marca Ferro. |
+| Institucional | 24–30 | Organigrama; reforma del Estatuto; beneficios y capacitación para empleados; identidad visual; escuela; Fundación Ferro; estudio audiovisual. |
+
+### Puntos que requieren contraste
+
+- El 15% de reinversión no define en el PDF la base exacta de cálculo, el órgano administrador ni el mecanismo de control.
+- Las propuestas de estadio, Platea Sur, Avellaneda y Pontevedra no incluyen en este documento presupuesto consolidado, etapas, permisos, financiamiento ni cronograma integral.
+- La reforma estatutaria mezcla una propuesta política con afirmaciones sobre el Estatuto vigente; verificar artículos antes de formular una conclusión jurídica.
+- El diagnóstico financiero y de gestión se registra como posición de Somos Ferro, no como auditoría independiente.
+- No se identifica un responsable nominal ni un costo de implementación para cada una de las 30 propuestas.
 
 ## Piezas visibles
 
