@@ -1,5 +1,17 @@
 # Changelog del research electoral
 
+## [v0.10.0] — 2026-09-17
+
+### Agregado
+
+- Registro del programa FerroWeb / Hablemos de Ferro PGM 216, publicado el 14/9/2026.
+- Descripción pública de sus ejes deportivos y clasificación como fuente localizada sin transcript.
+
+### Precaución
+
+- YouTube no ofrece subtítulos automáticos, subtítulos manuales ni capítulos para este video.
+- No se incorporan citas, preguntas ni posiciones electorales hasta contar con timestamps y transcripción o audio verificable.
+
 ## [v0.9.0] — 2026-09-17
 
 ### Agregado
