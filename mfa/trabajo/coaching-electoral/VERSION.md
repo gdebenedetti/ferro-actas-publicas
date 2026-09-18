@@ -2,11 +2,11 @@
 
 ## Versión vigente
 
-**v0.10.0 — 2026-09-17**
+**v0.11.0 — 2026-09-18**
 
 Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
 
-La versión incorpora la entrevista pública a Pedro Masó, jefe de campaña de Ferro en Acción, y registra un nuevo programa de FerroWeb localizado sin transcripción pública. También mantiene la actualización operativa y comparativa de la versión anterior. Las posiciones específicas de MFA, las cifras electorales y el contenido hablado del nuevo video siguen requiriendo definición o validación documental.
+La versión incorpora el bloque electoral del PGM 216 de FerroWeb, con Santiago Alfis como apoderado de MFA, además de las intervenciones de Somos Ferro e Identidad Verdolaga. Los subtítulos automáticos permiten localizar pasajes, pero las cifras y afirmaciones jurídicas siguen requiriendo validación documental. También mantiene las actualizaciones operativa, comparativa y de la entrevista a Pedro Masó.
 
 También registra la composición oficial de Junta Electoral comunicada al equipo, sin exponer detalles internos de la negociación.
 
@@ -18,10 +18,11 @@ Se incorpora la fórmula comunicada por Identidad Verdolaga y su mensaje de cont
 
 Se incorpora la entrevista extensa de Hablemos de Ferro a Patricio Baigorrotegui, con clasificación de tono facilitador, bloques temáticos, cifras sensibles y preguntas hostiles derivadas.
 
-## Alcance de v0.10.0
+## Alcance de v0.11.0
 
-- Registro del PGM 216 de Hablemos de Ferro, publicado el 14/9/2026, con descripción pública y estado `localizado-sin-transcript`.
-- Separación explícita entre contexto deportivo del medio y evidencia electoral no observada.
+- Registro del bloque electoral del PGM 216 de Hablemos de Ferro, publicado el 14/9/2026, con timestamps de Somos Ferro, MFA e Identidad Verdolaga.
+- Subtítulos automáticos localizados y advertencias sobre errores nominales, cifras y afirmaciones jurídicas.
+- Incorporación del contraste con el listado provisorio 2026 de 7.855 filas y el reclamo de más de 8.000 habilitados en el programa.
 
 ## Alcance de v0.9.0
 

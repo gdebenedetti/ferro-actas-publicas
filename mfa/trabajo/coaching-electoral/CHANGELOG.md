@@ -1,16 +1,17 @@
 # Changelog del research electoral
 
-## [v0.10.0] — 2026-09-17
+## [v0.11.0] — 2026-09-18
 
 ### Agregado
 
-- Registro del programa FerroWeb / Hablemos de Ferro PGM 216, publicado el 14/9/2026.
-- Descripción pública de sus ejes deportivos y clasificación como fuente localizada sin transcript.
+- Registro del bloque electoral del programa FerroWeb / Hablemos de Ferro PGM 216, publicado el 14/9/2026.
+- Incorporación de las intervenciones de Esteban de Somos Ferro, Santiago Alfis como apoderado de MFA y Fabián Lértora de Identidad Verdolaga.
+- Timestamps, preguntas hostiles y contraste con el listado provisorio 2026.
 
 ### Precaución
 
-- YouTube no ofrece subtítulos automáticos, subtítulos manuales ni capítulos para este video.
-- No se incorporan citas, preguntas ni posiciones electorales hasta contar con timestamps y transcripción o audio verificable.
+- Los subtítulos automáticos contienen errores de nombres, cifras y términos jurídicos; el estado es `transcript-localizado`, no `audio-confirmado`.
+- Las acusaciones sobre vínculos, autodenuncia, intención de aplazar elecciones y perpetuación quedan como declaraciones de entrevistados, no como hechos probados.
 
 ## [v0.9.0] — 2026-09-17
 
