@@ -1,9 +1,10 @@
 # Redes sociales y agrupaciones rumbo a septiembre de 2026
 
-Corte documental principal: **2026-06-25**.  
+Corte documental principal: **2026-06-25**.
 Actualización de plataforma: **2026-09-12**.
+Último corte de redes y elecciones: **2026-09-20**.
 
-Actualizaciones disponibles: [novedades de las agrupaciones al 6 de septiembre de 2026](actualizaciones/2026-09-06__novedades-agrupaciones.md) y [análisis programático de la Plataforma Somos Ferro al 12 de septiembre](analisis/plataforma-somos-ferro-2026-09-12.md). Las lecturas y métricas de junio que siguen son históricas, no un diagnóstico vigente de septiembre.
+Actualizaciones disponibles: [novedades de las agrupaciones al 6 de septiembre de 2026](actualizaciones/2026-09-06__novedades-agrupaciones.md), [análisis programático de la Plataforma Somos Ferro al 12 de septiembre](analisis/plataforma-somos-ferro-2026-09-12.md) y [corte de elecciones y redes al 20 de septiembre](actualizaciones/2026-09-20__corte-elecciones-y-redes.md). Las lecturas y métricas de junio que siguen son históricas, no un diagnóstico vigente de septiembre.
 
 ## Alcance
 
