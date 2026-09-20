@@ -2,11 +2,11 @@
 
 Documento interno de preparación. Inicio: 6 de septiembre de 2026.
 
-Versión vigente: **v0.8.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
+Versión vigente: **v0.12.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
 
 ## Encuadre recibido
 
-- Elección del 27 de septiembre de 2026, confirmada por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719). La composición oficial de la Junta ya está incorporada al argumentario.
+- Elección del 27 de septiembre de 2026, confirmada inicialmente por el [comunicado oficial del club del 3/9](https://x.com/FerroOficial/status/2095698078309220719) y actualizada el 19/9 tras el trámite ante la IGJ. La Junta Electoral oficial ya está incorporada al argumentario; la cuestión IGJ queda como antecedente y no como eje central.
 - Debate en Ferro Web previsto para el 24 de septiembre, confirmado por el usuario; participación, formato, reglas y publicación posterior pendientes de confirmación documental del organizador.
 - Escenario base: entrevistas exigentes o adversas, con interrupciones, preguntas con premisas discutibles, repreguntas y presión de tiempo.
 - La cercanía de medios con Identidad Verdolaga y Somos Ferro es una lectura aportada por el usuario. No se registra como hecho demostrado sobre cada medio o periodista.
@@ -20,6 +20,7 @@ Versión vigente: **v0.8.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md
 - [FerroWeb: presentación de Somos Ferro y entrevistas — 8 de septiembre](2026-09-08__ferroweb-presentacion-somos-ferro.md): texto visible del post, fórmula consignada, anuncio del debate y estado de la transcripción del video.
 - [Identidad Verdolaga: fórmula y mensaje de continuidad — 12 de septiembre](2026-09-12__identidad-verdolaga-formula-y-mensaje.md): encabezamiento de lista, lema, promesas y preguntas hostiles derivadas.
 - [Entrevista Hablemos de Ferro a Patricio Baigorrotegui — 12 de septiembre](2026-09-12__entrevista-hablemos-de-ferro-patricio-baigorrotegui.md): tramo 26:40–cierre, tono facilitador, propuestas, cifras sensibles y preguntas hostiles.
+- [Actualización operativa: elecciones confirmadas y corte de redes — 20 de septiembre](2026-09-20__actualizacion-corte-elecciones-y-redes.md): cambio de prioridad desde la disputa procedimental hacia el contraste de gobierno, padrón provisorio, fórmula de cada agrupación y entrenamiento para el debate.
 - [Actualización operativa y comparativa — 16 de septiembre](2026-09-16__actualizacion-operativa-y-comparativa.md): plataforma actualizada de Somos Ferro, padrón 2026 pendiente, clasificación de medios y checklist del debate.
 - [Entrevista a Pedro Masó en Solo x Deporte — 23 de julio](2026-09-17__entrevista-pedro-maso-soloxdeporte.md): ejes públicos de MFA, renovación, fútbol integral, participación, cifras electorales y preguntas derivadas.
 - [FerroWeb / Hablemos de Ferro PGM 216 — 14 de septiembre](2026-09-17__ferroweb-hablemos-de-ferro-pgm216.md): bloque electoral con Esteban de Somos Ferro, Santiago Alfis de MFA y Fabián Lértora de Identidad Verdolaga; subtítulos localizados, cifras y pasajes jurídicos pendientes de validación.

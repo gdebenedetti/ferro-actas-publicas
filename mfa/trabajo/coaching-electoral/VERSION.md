@@ -2,9 +2,9 @@
 
 ## Versión vigente
 
-**v0.11.0 — 2026-09-18**
+**v0.12.0 — 2026-09-20**
 
-Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el primer marco comparativo y de simulación.
+Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el corte actualizado de elecciones, padrón y redes de las tres agrupaciones.
 
 La versión incorpora el bloque electoral del PGM 216 de FerroWeb, con Santiago Alfis como apoderado de MFA, además de las intervenciones de Somos Ferro e Identidad Verdolaga. Los subtítulos automáticos permiten localizar pasajes, pero las cifras y afirmaciones jurídicas siguen requiriendo validación documental. También mantiene las actualizaciones operativa, comparativa y de la entrevista a Pedro Masó.
 
@@ -17,6 +17,15 @@ Se incorpora la transcripción aportada por el equipo, con estado `transcript-lo
 Se incorpora la fórmula comunicada por Identidad Verdolaga y su mensaje de continuidad, con separación entre texto de campaña, promesas y afirmaciones que requieren respaldo documental.
 
 Se incorpora la entrevista extensa de Hablemos de Ferro a Patricio Baigorrotegui, con clasificación de tono facilitador, bloques temáticos, cifras sensibles y preguntas hostiles derivadas.
+
+Se actualiza el marco operativo tras la confirmación oficial de que las elecciones se realizarán el 27/9: la IGJ pasa a ser antecedente y el padrón provisorio publicado el 16/9 pasa a ser el foco documental inmediato. Se agrega el corte público de X e Instagram del 20/9 para MFA, Somos Ferro e Identidad Verdolaga, con el desplazamiento del coaching hacia comparación de propuestas, fórmulas, primeros 90 días y preparación del debate.
+
+## Alcance de v0.12.0
+
+- Confirmación institucional actualizada: el pedido de suspensión ante la IGJ no prosperó y la elección del 27/9 sigue vigente.
+- Incorporación del listado provisorio 2026 publicado el 16/9: 7.855 filas, reclamos hasta el 23/9 y padrón definitivo todavía pendiente.
+- Corte de X e Instagram consultado el 20/9 para MFA, Somos Ferro e Identidad Verdolaga.
+- Nuevo argumentario comparativo sobre elección confirmada, padrón, continuidad, propuestas y debate.
 
 ## Alcance de v0.11.0
 
@@ -71,4 +80,4 @@ Cada corte nuevo debe:
 
 ## Fuentes y límites de esta versión
 
-La captura no es un monitoreo permanente ni prueba intención de voto. Los conteos de redes son fotografías públicas. Los subtítulos automáticos y OCR sirven para localizar pasajes; las citas sensibles requieren audio, imagen o documento original. El debate del 24/9 sigue sin confirmación pública.
+La captura no es un monitoreo permanente ni prueba intención de voto. Los conteos de redes son fotografías públicas. Los subtítulos automáticos y OCR sirven para localizar pasajes; las citas sensibles requieren audio, imagen o documento original. El debate del 24/9 se mantiene anunciado y confirmado operativamente por el equipo, pero su formato y reglas siguen sin documentación pública completa.

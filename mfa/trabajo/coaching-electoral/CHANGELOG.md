@@ -1,5 +1,19 @@
 # Changelog del research electoral
 
+## [v0.12.0] — 2026-09-20
+
+### Agregado
+
+- Actualización del estado electoral: la elección del 27/9 queda tratada como confirmada y la cuestión IGJ pasa a ser antecedente contextual.
+- Incorporación del listado provisorio 2026 publicado el 16/9, con 7.855 filas numeradas, reclamos hasta el 23/9 y padrón definitivo todavía pendiente.
+- Corte público de X e Instagram de MFA, Somos Ferro e Identidad Verdolaga, con enlaces a publicaciones recientes y separación entre declaraciones y hechos documentados.
+- Nuevo argumentario comparativo sobre fórmula, continuidad, propuestas, primeros 90 días, padrón y debate del 24/9.
+
+### Criterio
+
+- Se prioriza la preparación para preguntas sustantivas y comparativas. La discusión procedimental no desaparece, pero no debe desplazar el entrenamiento de gobierno.
+- Las narrativas de campaña sobre “auto impugnación”, obras, metros cuadrados, deportistas o gestión se registran como declaraciones y requieren respaldo antes de convertirse en afirmaciones propias.
+
 ## [v0.11.0] — 2026-09-18
 
 ### Agregado
