@@ -2,13 +2,13 @@
 
 **Documento de recomendación para la Junta Electoral**
 
-**Fecha:** 20 de septiembre de 2026
+**Fecha:** 21 de septiembre de 2026
 
 **Base de trabajo:** padrón provisorio 2026
 
 ## Resumen ejecutivo
 
-Se recomienda organizar el padrón provisorio 2026 en **15 mesas**, con rangos alfabéticos consecutivos y una distribución equilibrada de la participación esperada.
+Se recomienda organizar el padrón provisorio 2026 en **10 mesas**, con rangos alfabéticos consecutivos y una distribución equilibrada de la participación esperada.
 
 La propuesta toma como referencia antecedentes históricos de participación en elecciones anteriores, la experiencia operativa de comicios previos y el conocimiento acumulado sobre el comportamiento de los escrutinios. El objetivo es evitar que todas las mesas reciban una cantidad idéntica de electores si eso termina concentrando la asistencia en algunas de ellas.
 
@@ -16,7 +16,7 @@ La propuesta es una herramienta de planificación. No reemplaza la decisión de 
 
 ## Criterio de organización
 
-- Utilizar 15 mesas.
+- Utilizar 10 mesas.
 - Mantener rangos alfabéticos consecutivos.
 - Procurar una carga esperada similar entre mesas.
 - Evitar dividir un mismo apellido entre dos mesas cuando sea posible.
@@ -26,23 +26,18 @@ La propuesta es una herramienta de planificación. No reemplaza la decisión de 
 
 | Mesa | Desde | Hasta | Electores asignados | Participantes estimados |
 | ---: | --- | --- | ---: | ---: |
-| 1 | ABADIN | AVALOS | 460 | 138,3 |
-| 2 | AVARO | BOUTET | 514 | 138,1 |
-| 3 | BOUZA | CERVANTES | 555 | 136,9 |
-| 4 | CERVELO | DE LELLIS | 527 | 136,9 |
-| 5 | DE LEON | FEMIA | 507 | 132,5 |
-| 6 | FENELLI CRISTOFANI | GARCIA FERNANDEZ | 525 | 137,7 |
-| 7 | GARCIA | GARCIA GRYNSZPAN | 446 | 137,4 |
-| 8 | GUALA | LATERRA | 498 | 137,4 |
-| 9 | LAUDONIO | MARTINEZ | 560 | 141,8 |
-| 10 | MARTINEZ ARRIZABALAGA | NIGRO | 541 | 137,5 |
-| 11 | NINI | PERRONE | 531 | 137,5 |
-| 12 | PERROTTA | RIMOLO | 497 | 138,0 |
-| 13 | RINALDI | SCAGLIONE | 601 | 137,1 |
-| 14 | SCAGLIUSI | TOMBESI | 542 | 138,3 |
-| 15 | TOME | ZYSMAN | 535 | 142,5 |
+| 1 | ABADIN | BEN | 705 | 206,4 |
+| 2 | BENAGHI | CERVANTES | 824 | 206,8 |
+| 3 | CERVELO | DONATO | 807 | 207,0 |
+| 4 | DONELLI | GARCIA RETAMAR | 770 | 207,1 |
+| 5 | GARCIA RIVAS | JACA | 687 | 207,2 |
+| 6 | JACQUEMIN | MARTINO | 820 | 207,4 |
+| 7 | MARTORELLI | PARADISO | 787 | 207,6 |
+| 8 | PARAFITA | RISI | 779 | 206,6 |
+| 9 | RISO | SPINETTO | 917 | 207,2 |
+| 10 | SPITZNAGEL DE SONAGLIA | ZYSMAN | 743 | 204,4 |
 
-En el escenario de participación esperado, la carga estimada se ubica entre **132,5 y 142,5 participantes por mesa**. La diferencia se mantiene acotada aun cuando algunos rangos tienen más electores asignados que otros.
+En el escenario de participación esperado, la carga estimada se ubica entre **204,4 y 207,6 participantes por mesa**. Una división en 10 partes iguales por cantidad de electores produciría una diferencia estimada mucho mayor, de aproximadamente **181 a 230 participantes por mesa**.
 
 ## Escenarios operativos
 
@@ -50,9 +45,9 @@ La Junta puede evaluar la misma distribución con tres niveles de asistencia:
 
 | Escenario | Supuesto | Rango estimado por mesa |
 | --- | --- | ---: |
-| Bajo | Participación inferior a la histórica | 128–137 |
-| Esperado | Participación acorde con antecedentes previos | 132,5–142,5 |
-| Alto | Participación excepcionalmente elevada | 144–158 |
+| Bajo | Participación inferior a la histórica | 197–203 |
+| Esperado | Participación acorde con antecedentes previos | 204,4–207,6 |
+| Alto | Participación excepcionalmente elevada | 219–233 |
 
 Estos escenarios sirven para dimensionar autoridades, espacio físico y tiempos de atención. No constituyen una predicción individual ni una determinación de quién votará.
 
@@ -66,4 +61,4 @@ Estos escenarios sirven para dimensionar autoridades, espacio físico y tiempos 
 
 ## Recomendación final
 
-Adoptar esta distribución como escenario de trabajo para 15 mesas y someterla a validación de la Junta Electoral. Una vez publicado el padrón definitivo, revisar los rangos y confirmar la cartelería y el circuito operativo antes de comunicar la asignación a los socios y socias.
+Adoptar esta distribución como escenario de trabajo para 10 mesas y someterla a validación de la Junta Electoral. Una vez publicado el padrón definitivo, revisar los rangos y confirmar la cartelería y el circuito operativo antes de comunicar la asignación a los socios y socias.
