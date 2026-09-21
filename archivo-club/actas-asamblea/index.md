@@ -1,6 +1,6 @@
 # Documentos de Asamblea
 
-Documentos reunidos: 22
+Documentos reunidos: 23
 
 Esta carpeta reúne actas, balances, convocatorias y materiales de apoyo vinculados con las asambleas. Los documentos están ordenados del más reciente al más antiguo.
 
@@ -18,6 +18,7 @@ Esta carpeta reúne actas, balances, convocatorias y materiales de apoyo vincula
 
 | Fecha | Publicación | Tipo | Referencia | Título | Archivo | Enlace | Observaciones |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-06-30 | - | Balance de asamblea | Balance · Ejercicio 122 (2025/2026) | MEMORIA Y BALANCE EJERCICIO 122 | `balances/2026-06-30__asamblea-balance__ej122.pdf` | - | Archivo recibido localmente; cierre del ejercicio 30/06/2026. Incluye memoria, estados contables, notas, anexos, informe de auditoría e informe de la Comisión Revisora de Cuentas. No se registró todavía una URL pública de origen. |
 | 2025-09-28 | 2025-10-20 | Acta de asamblea | Asamblea · Septiembre 2025 | ASAMBLEA GENERAL ORDINARIA DE SOCIOS/AS – SEPTIEMBRE 2025 | `2025-09-28__asamblea-acta__sep-2025.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2025/10/CamScanner-17-10-2025-11.10.pdf | Acta celebrada el 28/09/2025; el archivo fue escaneado/procesado el 17/10/2025 y publicado el 20/10/2025. Balance ejercicio 121 aprobado por mayoria, con 146 abstenciones. Participaron Guillermo Bameule (presidente), Raúl Seguí (secretario), Santiago Godoy (secretario de actas), Rafael Pierucci (expositor contable), José Luis Arias (vocal suplente), Lucas Sejas, Pablo Abiad, Silvina Ledesma, Norberto José Vega, Víctor Hugo Marchesini, Dante Bombiccino y veedoras de la IGJ Mara López, Paula Di Diego, Gabriela Branzani y Cecilia Vanin. |
 | 2025-06-30 | 2025-09-19 | Balance de asamblea | Balance · Ejercicio 121 | MEMORIA Y BALANCE GENERAL EJERCICIO 121 AL 30/6/25 | `balances/2025-06-30__asamblea-balance__ej121__part-03.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2025/09/MEMORIA.pdf | Parte 3/3: estados contables y auditoría; estado patrimonial, recursos y gastos, evolución del patrimonio neto, flujo de efectivo, notas, anexos y dictámenes. |
 | 2025-06-30 | 2025-09-19 | Balance de asamblea | Balance · Ejercicio 121 | MEMORIA Y BALANCE GENERAL EJERCICIO 121 AL 30/6/25 | `balances/2025-06-30__asamblea-balance__ej121__part-02.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2025/09/Instituto-Educativo-Nivel-Inicial-y-Primario.pdf | Parte 2/3: Instituto Educativo; nivel inicial y primario, proyectos educativos, salidas didácticas, intertribus y actos escolares. |

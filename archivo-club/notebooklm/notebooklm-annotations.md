@@ -23,11 +23,13 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
   - `2026-06-11 CD P101-S030`
   - `2026-07-30 CD P101-S031`
   - `2025-09-28 Asamblea Sep 2025`
-  - `2025-06-30 Balance E121 parte 3 (OCR)`
+  - `2025-06-30 Balance E121 parte 3 (OCR auxiliar no canónico)`
 - Fuente general ya incorporada:
   - `Estatuto.pdf`
 - Fuente numérica auditada incorporada:
   - `2025-06-30__asamblea-balance__ej121__part-03__auditoria-numerica`
+- El balance E122 quedó incorporado como `2026-06-30__asamblea-balance__ej122` y etiquetado en `Asamblea - Balances`.
+- El OCR del E121 fue restaurado como fuente auxiliar no canónica: `2025-06-30__asamblea-balance__ej121__part-03__ocr__auxiliar-no-canonico`.
 - Todo el resto del corpus sigue pendiente de ficha detallada, aunque ya quedo cargado y etiquetado en NotebookLM.
 
 ## 2026-07-30 CD P101-S031
@@ -168,11 +170,11 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
   - seguimiento de infraestructura y comisiones de mantenimiento;
   - debate sostenido sobre futbol profesional y comunicacion institucional.
 
-## 2025-06-30 Balance E121 parte 3 (OCR)
+## 2025-06-30 Balance E121 parte 3 (OCR auxiliar no canónico)
 
 - Archivo original: `../actas-asamblea/balances/2025-06-30__asamblea-balance__ej121__part-03.pdf`
 - Archivo derivado: `../actas-asamblea/balances/2025-06-30__asamblea-balance__ej121__part-03__ocr.pdf`
-- Fuente NotebookLM: `44a4ff66-9df8-4ae3-b338-727057c17e5a`
+- Fuente NotebookLM: `99559322-f10c-42a1-8640-977d1771a62e`
 - Diagnostico: el PDF original se ve correctamente, pero su capa textual tiene una codificacion Type 3 defectuosa y no resulta confiable para extraccion. La copia OCR preserva la imagen de las 27 paginas y agrega una capa de texto buscable, pero altera o pierde algunos numeros internos.
 - Validacion: NotebookLM consultado exclusivamente sobre la fuente OCR confirmo la lectura general, pero repitio errores numericos del OCR. La fuente sirve para localizar texto; no debe usarse sola para cifras contables.
 - Datos verificados:
@@ -196,3 +198,16 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 - Valores comprobados en la prueba: activo total 2025 `$45.815.970.677,30`; patrimonio neto 2024 `$39.641.683.391,69`; provisiones del flujo 2024 `-$689.416.083,91`; Futsal de escuelas 2025 `$369.888.636,63`; Egresos Generales de Intendencia 2024 `$1.047.744.188,92`; gastos específicos de departamentos 2025 `$14.002.670.362,44`.
 - Discrepancias que deben conservarse como parte de la metadata: Anexo C, suma de filas de Escuelas 2025 `$1.302.906.100,61` frente al total impreso `$1.302.906.100,63`; suma de subtotales impresos de C `$3.179.402.239,64` frente al total impreso `$3.179.402.239,63`. Anexo D, diferencias de un centavo entre filas y subtotales de Deportes y Egresos por Actividades, y suma de subtotales 2025 `$14.002.670.362,43` frente al total impreso `$14.002.670.362,44`.
 - Regla de consulta: para cifras exactas usar esta fuente auditada y pedir transcripción literal; para verificar una cifra cuestionada, contrastar además con la tabla visual del PDF original. El OCR queda como fuente de localización textual, no como fuente numérica.
+
+## 2026-06-30 Balance E122
+
+- Archivo local: `../actas-asamblea/balances/2026-06-30__asamblea-balance__ej122.pdf`
+- Fuente NotebookLM: `4122c803-37fb-4207-a988-2aca7bb6c219`
+- Etiqueta: `Asamblea - Balances`
+- Documento: `MEMORIA Y BALANCE EJERCICIO 122`.
+- Período: `E122 (2025/2026)`, iniciado el 01/07/2025 y finalizado el 30/06/2026.
+- Extensión: 111 páginas, un solo PDF.
+- Contenido: memoria institucional y deportiva, autoridades y subcomisiones, estados contables, notas, anexos, informe de auditoría y dictamen de la Comisión Revisora de Cuentas.
+- Validación CLI: consultado exclusivamente con `--source-ids 4122c803-37fb-4207-a988-2aca7bb6c219`. NotebookLM reconoció correctamente el ejercicio, el período, a Guillermo Carlos Bameule como presidente, a Rafael Antonio Pierucci como tesorero, el activo total de `$64.883.884.065,48` y la fecha de cierre 30/06/2026.
+- Lectura: no se detectó un problema de encoding en la consulta; la fuente devolvió citas textuales de la portada, la nómina de autoridades, el estado patrimonial y la legalización final.
+- Criterio: para cifras internas de tablas, pedir transcripción literal y contrastar con el PDF visual antes de tratar una respuesta como dato verificado.

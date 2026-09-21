@@ -5,8 +5,21 @@
     "asamblea",
     "memoria y balance"
   ],
-  "count": 22,
+  "count": 23,
   "records": [
+    {
+      "post_id": null,
+      "post_date": null,
+      "event_date": "2026-06-30",
+      "title": "MEMORIA Y BALANCE EJERCICIO 122",
+      "slug": "balance-general-ejercicio-122-al-30-6-26",
+      "post_url": null,
+      "pdf_url": null,
+      "local_file": "balances/2026-06-30__asamblea-balance__ej122.pdf",
+      "kind": "asamblea-balance",
+      "reference": "Ejercicio 122 (2025/2026)",
+      "note": "Archivo recibido localmente el 2026-09-21. El documento identifica el ejercicio 122, comprendido entre el 01/07/2025 y el 30/06/2026. Incluye memoria, estados contables, notas, anexos, informe de auditoria e informe de la Comision Revisora de Cuentas. No se registro todavia una URL publica de origen."
+    },
     {
       "post_id": 38810,
       "post_date": "2025-10-20",
