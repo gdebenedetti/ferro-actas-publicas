@@ -1,5 +1,20 @@
 # Changelog del research electoral
 
+## [v0.13.0] — 2026-09-25
+
+### Agregado
+
+- Transcripción automática original en español del debate presidencial de FerroWeb (`fX1DvDfPtPg`), conservada en formato VTT.
+- Análisis del debate del 24/9, publicado el 25/9, con roles separados para Nico, Gabi, los tres candidatos, la voz del video explicativo, producción y anunciantes.
+- Línea de tiempo de los ocho bloques, repreguntas, tandas publicitarias, interrupción técnica y tramo de audio incompleto en la presentación de Alcaraz.
+- Opinión comparativa imparcial y lectura específica de la actuación de Ferro en Acción.
+
+### Precaución
+
+- Los subtítulos automáticos deforman nombres y cifras; la normalización editorial sólo usa la nómina oficial ya archivada.
+- Las tandas de 56:30–01:03:17 y 01:36:58–01:40:20 quedan fuera del análisis político.
+- Las declaraciones financieras, institucionales y de obras no se convierten en hechos probados sin balance, contrato, acta, resolución o fuente original.
+
 ## [v0.12.0] — 2026-09-20
 
 ### Agregado

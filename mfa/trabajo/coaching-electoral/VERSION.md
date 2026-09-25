@@ -2,9 +2,13 @@
 
 ## Versión vigente
 
-**v0.12.0 — 2026-09-20**
+**v0.13.0 — 2026-09-25**
 
-Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el corte actualizado de elecciones, padrón y redes de las tres agrupaciones.
+Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el análisis del debate presidencial de FerroWeb y la actualización del corte electoral de las tres agrupaciones.
+
+La versión incorpora la transcripción automática original del debate presidencial de FerroWeb del 24/9, publicada el 25/9, junto con una línea de tiempo de voces, candidatos, moderación, video explicativo, publicidad y cortes técnicos. Incluye dos lecturas separadas: una comparación imparcial del desempeño y otra centrada en la actuación de MFA.
+
+La transcripción se conserva como VTT bruto y permanece en estado `transcript-localizado`: los nombres se normalizan en el análisis contra la nómina oficial, pero las cifras, acusaciones y negaciones requieren contraste con audio y documentos.
 
 La versión incorpora el bloque electoral del PGM 216 de FerroWeb, con Santiago Alfis como apoderado de MFA, además de las intervenciones de Somos Ferro e Identidad Verdolaga. Los subtítulos automáticos permiten localizar pasajes, pero las cifras y afirmaciones jurídicas siguen requiriendo validación documental. También mantiene las actualizaciones operativa, comparativa y de la entrevista a Pedro Masó.
 
@@ -80,4 +84,4 @@ Cada corte nuevo debe:
 
 ## Fuentes y límites de esta versión
 
-La captura no es un monitoreo permanente ni prueba intención de voto. Los conteos de redes son fotografías públicas. Los subtítulos automáticos y OCR sirven para localizar pasajes; las citas sensibles requieren audio, imagen o documento original. El debate del 24/9 se mantiene anunciado y confirmado operativamente por el equipo, pero su formato y reglas siguen sin documentación pública completa.
+La captura no es un monitoreo permanente ni prueba intención de voto. Los conteos de redes son fotografías públicas. Los subtítulos automáticos y OCR sirven para localizar pasajes; las citas sensibles requieren audio, imagen o documento original. El debate del 24/9 ya tiene video y transcripción automática archivados, pero los pasajes sensibles siguen requiriendo contraste con audio, documentos y fuentes originales.
