@@ -2,9 +2,20 @@
 
 ## Versión vigente
 
-**v0.13.0 — 2026-09-25**
+**v0.14.0 — 2026-10-12**
 
-Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el análisis del debate presidencial de FerroWeb y la actualización del corte electoral de las tres agrupaciones.
+Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el procesamiento del registro de votación del 27/9/2026, su cruce controlado con el padrón definitivo de trabajo y la comparación de la distribución final de mesas con la propuesta MFA.
+
+La lectura por persona distingue los cruces confirmados por número de socio de las coincidencias nominales que requieren revisión. El informe versionado contiene sólo agregados; los CSV nominales se conservan en el directorio local ignorado del subproyecto del padrón.
+
+No se agrega una marca de asistencia 2023: el archivo local disponible permite verificar habilitación, pero no quién votó efectivamente.
+
+## Alcance de v0.14.0
+
+- 3.392 registros de votación frente a 7.868 filas del padrón 2026 local.
+- 3.244 cruces exactos por número de socio; 130 coincidencias nominales únicas y 18 casos ambiguos para revisión.
+- Comparación por mesa: participación registrada, tamaño de la lista, rangos propuestos, cortes alfabéticos y apellidos partidos entre mesas contiguas.
+- Marcas horarias agregadas, con 21 registros posteriores a las 19:00 señalados para confirmar contra el horario oficial y la práctica de carga del sistema.
 
 La versión incorpora la transcripción automática original del debate presidencial de FerroWeb del 24/9, publicada el 25/9, junto con una línea de tiempo de voces, candidatos, moderación, video explicativo, publicidad y cortes técnicos. Incluye dos lecturas separadas: una comparación imparcial del desempeño y otra centrada en la actuación de MFA.
 

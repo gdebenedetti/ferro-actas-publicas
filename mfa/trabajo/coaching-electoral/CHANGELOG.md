@@ -1,5 +1,19 @@
 # Changelog del research electoral
 
+## [v0.14.0] — 2026-10-12
+
+### Agregado
+
+- Procesamiento reproducible del registro de votación del 27/9/2026, con resumen agregado por mesa y cruce local con el padrón definitivo 2026 disponible.
+- Base privada aumentada con el estado de voto 2026 y lista de conciliaciones pendientes; los datos nominales quedan en el directorio ignorado del subproyecto del padrón.
+- Comparación de los cortes finales con la propuesta MFA del 21/9: tamaño casi idéntico de las mesas finales, cuatro apellidos distribuidos entre mesas contiguas y migración por apellido bajo la propuesta.
+
+### Precauciones
+
+- El cruce confirma 3.244 registros por número de socio; 130 quedan para revisión por coincidencia nominal única y 18 por ambigüedad de nombres.
+- El proyecto no conserva una fuente de asistencia efectiva 2023: la columna local `padron_2023_habilitado` acredita habilitación, no que la persona haya votado.
+- El horario simulado de 09:00–19:00 no se toma como constancia del horario oficial de cierre; se señalan las marcas posteriores a las 19:00 para revisión.
+
 ## [v0.13.0] — 2026-09-25
 
 ### Agregado
