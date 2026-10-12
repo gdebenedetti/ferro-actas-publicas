@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[4]
 DEFAULT_VOTERS = Path.home() / "Downloads" / "VOTACIO\u0301N FCO - todos_los_que_votaron.csv"
 DEFAULT_PADRON = ROOT / "padron-ferro-en-accion-web/data/padron-2026/padron-definitivo-2026-mesas.csv"
+DEFAULT_PADRON_2020 = ROOT / "archivo-club/elecciones/padrones/2020-09-08__padron-electoral__ferro.csv"
 DEFAULT_PRIVATE_OUTPUT = ROOT / "padron-ferro-en-accion-web/data/padron-2026/participacion-votacion-2026.csv"
 DEFAULT_PENDING_OUTPUT = ROOT / "padron-ferro-en-accion-web/data/padron-2026/cruces-votacion-2026-pendientes.csv"
 DEFAULT_REPORT = ROOT / "mfa/trabajo/coaching-electoral/2026-10-12__analisis-resultados-votacion-2026.md"
@@ -100,6 +101,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--voters", type=Path, default=DEFAULT_VOTERS)
     parser.add_argument("--padron", type=Path, default=DEFAULT_PADRON)
+    parser.add_argument("--padron-2020", type=Path, default=DEFAULT_PADRON_2020)
     parser.add_argument("--output", type=Path, default=DEFAULT_PRIVATE_OUTPUT)
     parser.add_argument("--pending-output", type=Path, default=DEFAULT_PENDING_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
@@ -107,12 +109,16 @@ def main() -> None:
 
     voters = read_csv(args.voters)
     padron = read_csv(args.padron)
+    padron_2020 = read_csv(args.padron_2020)
     required_voter_fields = {"hora_voto", "mesa_donde_voto", "mesa_asignada", "nro_socio", "apellido", "nombre", "es_referido"}
     required_padron_fields = {"MESA", "Apellido", "Nombre", "Nro Socio"}
+    required_2020_fields = {"nro_socio", "nombre"}
     if not voters or not required_voter_fields.issubset(voters[0]):
         raise ValueError(f"El CSV de votantes no tiene las columnas esperadas: {sorted(required_voter_fields)}")
     if not padron or not required_padron_fields.issubset(padron[0]):
         raise ValueError(f"El CSV del padrón no tiene las columnas esperadas: {sorted(required_padron_fields)}")
+    if not padron_2020 or not required_2020_fields.issubset(padron_2020[0]):
+        raise ValueError(f"El CSV del padrón 2020 no tiene las columnas esperadas: {sorted(required_2020_fields)}")
 
     voter_by_member: dict[str, dict[str, str]] = {}
     voter_by_name: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -141,6 +147,48 @@ def main() -> None:
         row["_name_key"] = full_name(row["Apellido"], row["Nombre"])
         row["_proposal_table"] = str(proposal_table(row["Apellido"]))
         padron_by_name[row["_name_key"]].append(row)
+
+    historical_by_member: dict[str, list[dict[str, str]]] = defaultdict(list)
+    historical_by_name: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in padron_2020:
+        key = norm_member(row["nro_socio"])
+        name_key = norm_text(row["nombre"])
+        if key:
+            historical_by_member[key].append(row)
+        historical_by_name[name_key].append(row)
+
+    history_status: dict[str, tuple[str, str, str]] = {}
+    history_counts: Counter[str] = Counter()
+    history_voted_by_id: Counter[str] = Counter()
+    for row in padron:
+        key = row.get("_member_key", "")
+        name_key = row["_name_key"]
+        old_by_id = historical_by_member.get(key, []) if key else []
+        if old_by_id:
+            if any(norm_text(old["nombre"]) == name_key for old in old_by_id):
+                category = "id_name"
+                result = ("SI", "número de socio y nombre exactos", category)
+            elif len(old_by_id) == 1:
+                category = "id_name_conflict"
+                result = ("REVISAR", "número de socio coincide; nombre difiere", category)
+            else:
+                category = "ambiguous_id"
+                result = ("REVISAR", "número de socio duplicado en padrón 2020", category)
+        else:
+            old_by_name = historical_by_name.get(name_key, [])
+            if len(old_by_name) == 1:
+                category = "unique_name"
+                result = ("REVISAR", "nombre exacto único en 2020; número distinto o ausente", category)
+            elif old_by_name:
+                category = "ambiguous_name"
+                result = ("REVISAR", "nombre repetido en padrón 2020", category)
+            else:
+                category = "not_found"
+                result = ("NO LOCALIZADO", "sin número ni nombre exactos en padrón 2020", category)
+        history_status[key or f"name:{name_key}"] = result
+        history_counts[category] += 1
+        if key in voter_by_member:
+            history_voted_by_id[category] += 1
 
     statuses: dict[str, tuple[str, str, dict[str, str] | None]] = {}
     pending: list[dict[str, str]] = []
@@ -212,6 +260,9 @@ def main() -> None:
         row["Método de cruce"] = method
         row["Mesa registrada"] = voter_row["mesa_donde_voto"] if voter_row else ""
         row["Hora registrada"] = voter_row["hora_voto"] if voter_row else ""
+        historic = history_status.get(member_key or f"name:{source_row['_name_key']}", ("REVISAR", "sin número para comparar", "missing_key"))
+        row["En padrón 2020"] = historic[0]
+        row["Método cruce 2020"] = historic[1]
         augmented.append(row)
 
     write_csv(args.output, augmented, list(augmented[0].keys()))
@@ -259,6 +310,7 @@ def main() -> None:
         "",
         f"- Registro entregado por MFA: `{args.voters.name}`; SHA-256 `{sha256(args.voters)}`.",
         f"- Padrón definitivo de trabajo 2026 con mesa y número de socio: `{args.padron.relative_to(ROOT) if args.padron.is_relative_to(ROOT) else args.padron}`; SHA-256 `{sha256(args.padron)}`.",
+        f"- Padrón electoral 2020 archivado: `{args.padron_2020.relative_to(ROOT) if args.padron_2020.is_relative_to(ROOT) else args.padron_2020}`; SHA-256 `{sha256(args.padron_2020)}`.",
         "- El informe conserva únicamente agregados. El cruce persona a persona queda en el directorio local ignorado de `padron-ferro-en-accion-web/data/padron-2026/`.",
         "- Para 2023, el archivo público local registra elegibilidad/habilitación (`padron_2023_habilitado`), no si cada socio efectivamente votó. No se completa una columna de asistencia 2023 sin una fuente de votos de esa elección.",
         "",
@@ -271,6 +323,21 @@ def main() -> None:
         f"- Nombres repetidos que impiden asignar persona sin ambigüedad: **{num(ambiguous_voters)}** ({pct(ambiguous_voters / len(voters))}). Sin coincidencia nominal: **{num(unmatched_voters)}**.",
         f"- Mesa donde votó = mesa asignada en el sistema: **{num(on_expected_table)} de {num(len(voters))}**. Entre los cruces confirmados, la mesa del sistema coincide con la mesa del padrón en **{num(matched_by_id_official_mesa)} de {num(exact_match_count)}**.",
         f"- Marcados como referidos: **{num(referral_yes)}** ({pct(referral_yes / len(voters))}); el resto no lleva esa marca. No se desglosan referentes individuales en este informe.",
+        "",
+        "## Comparación histórica con el padrón 2020",
+        "",
+        "Esta comparación identifica presencia en el padrón electoral archivado de 2020, no el año efectivo de alta ni una incorporación específica en 2023. Se clasifica como coincidencia fuerte sólo el mismo número de socio y nombre completo normalizados; las variaciones quedan para revisión.",
+        "",
+        "| Situación respecto de 2020 | Filas del padrón 2026 | Con voto 2026 por número exacto |",
+        "| --- | ---: | ---: |",
+        f"| Número y nombre exactos en 2020 | {num(history_counts['id_name'])} | {num(history_voted_by_id['id_name'])} |",
+        f"| Número coincide, nombre difiere | {num(history_counts['id_name_conflict'])} | {num(history_voted_by_id['id_name_conflict'])} |",
+        f"| Nombre único en 2020, número distinto/ausente | {num(history_counts['unique_name'])} | {num(history_voted_by_id['unique_name'])} |",
+        f"| Nombre repetido en 2020 | {num(history_counts['ambiguous_name'])} | {num(history_voted_by_id['ambiguous_name'])} |",
+        f"| No localizado en 2020 por número ni nombre exacto | {num(history_counts['not_found'])} | {num(history_voted_by_id['not_found'])} |",
+        "",
+        f"Hay **{num(history_counts['not_found'])}** registros 2026 no localizados en el padrón 2020 por número ni nombre completo exactos; **{num(history_voted_by_id['not_found'])}** tienen un voto 2026 confirmado por número de socio. Es un grupo de posibles altas posteriores a 2020, sujeto a que el padrón 2020 sea el baseline correcto y a los límites de identidad indicados; no demuestra altas posteriores a 2023.",
+        f"Además, **{num(history_counts['unique_name'])}** filas comparten nombre completo único pero no número con registros de 2020; **{num(history_voted_by_id['unique_name'])}** de ellas tienen voto 2026 por número exacto. Se mantienen como revisión para no contar cambios de número o categoría como incorporaciones nuevas.",
         "",
         "## Distribución por las mesas del padrón definitivo",
         "",
@@ -355,7 +422,7 @@ def main() -> None:
         "",
         "## Artefactos generados",
         "",
-        f"- Base local aumentada: `{args.output}`. Columnas nuevas: `Voto 2026` (SI / REVISAR / NO), `Método de cruce`, `Mesa registrada`, `Hora registrada`.",
+        f"- Base local aumentada: `{args.output}`. Columnas nuevas: `Voto 2026`, `Método de cruce`, `Mesa registrada`, `Hora registrada`, `En padrón 2020` y `Método cruce 2020`.",
         f"- Pendientes de conciliación: `{args.pending_output}` ({num(len(pending))} filas).",
         f"- Script reproducible: `mfa/trabajo/coaching-electoral/scripts/analizar-votacion-2026.py`.",
         "",

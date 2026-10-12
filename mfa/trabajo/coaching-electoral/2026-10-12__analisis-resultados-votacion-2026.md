@@ -4,6 +4,7 @@
 
 - Registro entregado por MFA: `VOTACIÓN FCO - todos_los_que_votaron.csv`; SHA-256 `ae96c66a71cd5c08acd4f88395028a79c4f8460df446918d19a3093297ffb806`.
 - Padrón definitivo de trabajo 2026 con mesa y número de socio: `padron-ferro-en-accion-web/data/padron-2026/padron-definitivo-2026-mesas.csv`; SHA-256 `8321f948bcc97a5dbcffa113582e04f5bf6b0ae4ae962fc4edad33ebd77a1c0c`.
+- Padrón electoral 2020 archivado: `archivo-club/elecciones/padrones/2020-09-08__padron-electoral__ferro.csv`; SHA-256 `96ea4c3a31ebc9dd5077826acf54d187c1de2b3c992e433a8a3e260acf8c4c0e`.
 - El informe conserva únicamente agregados. El cruce persona a persona queda en el directorio local ignorado de `padron-ferro-en-accion-web/data/padron-2026/`.
 - Para 2023, el archivo público local registra elegibilidad/habilitación (`padron_2023_habilitado`), no si cada socio efectivamente votó. No se completa una columna de asistencia 2023 sin una fuente de votos de esa elección.
 
@@ -16,6 +17,21 @@
 - Nombres repetidos que impiden asignar persona sin ambigüedad: **18** (0,5%). Sin coincidencia nominal: **0**.
 - Mesa donde votó = mesa asignada en el sistema: **3.392 de 3.392**. Entre los cruces confirmados, la mesa del sistema coincide con la mesa del padrón en **3.244 de 3.244**.
 - Marcados como referidos: **317** (9,3%); el resto no lleva esa marca. No se desglosan referentes individuales en este informe.
+
+## Comparación histórica con el padrón 2020
+
+Esta comparación identifica presencia en el padrón electoral archivado de 2020, no el año efectivo de alta ni una incorporación específica en 2023. Se clasifica como coincidencia fuerte sólo el mismo número de socio y nombre completo normalizados; las variaciones quedan para revisión.
+
+| Situación respecto de 2020 | Filas del padrón 2026 | Con voto 2026 por número exacto |
+| --- | ---: | ---: |
+| Número y nombre exactos en 2020 | 4.063 | 1.679 |
+| Número coincide, nombre difiere | 141 | 28 |
+| Nombre único en 2020, número distinto/ausente | 354 | 156 |
+| Nombre repetido en 2020 | 20 | 1 |
+| No localizado en 2020 por número ni nombre exacto | 3.290 | 1.380 |
+
+Hay **3.290** registros 2026 no localizados en el padrón 2020 por número ni nombre completo exactos; **1.380** tienen un voto 2026 confirmado por número de socio. Es un grupo de posibles altas posteriores a 2020, sujeto a que el padrón 2020 sea el baseline correcto y a los límites de identidad indicados; no demuestra altas posteriores a 2023.
+Además, **354** filas comparten nombre completo único pero no número con registros de 2020; **156** de ellas tienen voto 2026 por número exacto. Se mantienen como revisión para no contar cambios de número o categoría como incorporaciones nuevas.
 
 ## Distribución por las mesas del padrón definitivo
 
@@ -124,7 +140,7 @@ La matriz anterior redistribuye por apellido los **3.392** registros de votació
 
 ## Artefactos generados
 
-- Base local aumentada: `/Users/guidodebenedetti/Documents/Ferro en Acción/padron-ferro-en-accion-web/data/padron-2026/participacion-votacion-2026.csv`. Columnas nuevas: `Voto 2026` (SI / REVISAR / NO), `Método de cruce`, `Mesa registrada`, `Hora registrada`.
+- Base local aumentada: `/Users/guidodebenedetti/Documents/Ferro en Acción/padron-ferro-en-accion-web/data/padron-2026/participacion-votacion-2026.csv`. Columnas nuevas: `Voto 2026`, `Método de cruce`, `Mesa registrada`, `Hora registrada`, `En padrón 2020` y `Método cruce 2020`.
 - Pendientes de conciliación: `/Users/guidodebenedetti/Documents/Ferro en Acción/padron-ferro-en-accion-web/data/padron-2026/cruces-votacion-2026-pendientes.csv` (148 filas).
 - Script reproducible: `mfa/trabajo/coaching-electoral/scripts/analizar-votacion-2026.py`.
 

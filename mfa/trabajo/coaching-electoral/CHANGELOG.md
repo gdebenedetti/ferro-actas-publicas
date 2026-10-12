@@ -1,5 +1,17 @@
 # Changelog del research electoral
 
+## [v0.15.0] — 2026-10-12
+
+### Agregado
+
+- Comparación por número de socio y nombre entre el padrón electoral 2020 archivado y el padrón definitivo de trabajo 2026.
+- Nueva columna privada `En padrón 2020` en la base aumentada y conteo de registros 2026 no localizados en 2020 que además tienen voto 2026 confirmado.
+
+### Precaución
+
+- La comparación usa 2020 como baseline histórico, no como padrón 2023; no permite fechar incorporaciones posteriores a 2023.
+- Diferencias de nombre o número se mantienen como revisión y no se clasifican automáticamente como altas nuevas.
+
 ## [v0.14.0] — 2026-10-12
 
 ### Agregado

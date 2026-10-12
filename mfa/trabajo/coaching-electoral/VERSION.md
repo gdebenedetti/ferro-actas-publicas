@@ -2,13 +2,19 @@
 
 ## Versión vigente
 
-**v0.14.0 — 2026-10-12**
+**v0.15.0 — 2026-10-12**
 
-Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el procesamiento del registro de votación del 27/9/2026, su cruce controlado con el padrón definitivo de trabajo y la comparación de la distribución final de mesas con la propuesta MFA.
+Versión trazable del paquete de coaching electoral de Movimiento Ferro en Acción, con el procesamiento del registro de votación del 27/9/2026, los cruces controlados con los padrones 2020 y 2026 y la comparación de la distribución final de mesas con la propuesta MFA.
 
 La lectura por persona distingue los cruces confirmados por número de socio de las coincidencias nominales que requieren revisión. El informe versionado contiene sólo agregados; los CSV nominales se conservan en el directorio local ignorado del subproyecto del padrón.
 
 No se agrega una marca de asistencia 2023: el archivo local disponible permite verificar habilitación, pero no quién votó efectivamente.
+
+## Alcance de v0.15.0
+
+- Comparación histórica 2020–2026 por número de socio y nombre completo normalizados.
+- 3.290 registros del padrón 2026 no localizados en 2020 por número ni nombre exactos; 1.380 tienen voto 2026 confirmado por número.
+- 515 filas permanecen para revisión por diferencias de nombre, coincidencias nominales o nombres repetidos.
 
 ## Alcance de v0.14.0
 
