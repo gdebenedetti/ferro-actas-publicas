@@ -1,6 +1,6 @@
 # Documentos de Comisión Directiva
 
-Documentos reunidos: 121
+Documentos reunidos: 123
 
 Esta carpeta reúne actas y balances públicos de la Comisión Directiva. Los documentos están ordenados del más reciente al más antiguo.
 
@@ -10,12 +10,15 @@ Esta carpeta reúne actas y balances públicos de la Comisión Directiva. Los do
 ## Continuidad
 En la secuencia hay estos faltantes:
 - Período 100: faltan las sesiones 17 y 28.
+- Período 101: falta la sesión 32.
 - La publicación de septiembre de 2025 quedó identificada como P101-S022.
 
 ## Listado
 
 | Fecha | Publicación | Tipo | Referencia | Título | Archivo | Enlace | Observaciones |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-06 | 2026-10-08 | Acta de Comisión Directiva | P102-S001 | PERIODO 102° DE CD – 1° SESION ORDINARIA | `2026-10-06__cd-acta__p102-s001.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/10/Acta-de-CD-2026-10-06-1%C2%B0-sesion_firmada.pdf | Primera sesión ordinaria del período 102. PDF con capa de texto extraíble legible. |
+| 2026-09-18 | 2026-10-07 | Acta de Comisión Directiva | P101-S033 | PERIODO 101° DE CD – 33° SESION ORDINARIA | `2026-09-18__cd-acta__p101-s033.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/10/Acta-comision-directiva-Septiembre-.pdf | Sesión celebrada el 18/09/2026; PDF escaneado de 4 páginas, inspección visual legible. |
 | 2026-07-30 | 2026-09-03 | Acta de Comisión Directiva | P101-S031 | PERIODO 101° DE CD – 31° SESION ORDINARIA | `2026-07-30__cd-acta__p101-s031.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-de-Julio.pdf |  |
 | 2026-06-11 | 2026-09-03 | Acta de Comisión Directiva | P101-S030 | PERIODO 101° DE CD – 30 SESION ORDINARIA | `2026-06-11__cd-acta__p101-s030.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/09/Acta-CD-junio.pdf |  |
 | 2026-05-07 | 2026-06-17 | Acta de Comisión Directiva | P101-S029 | PERÍODO 101 DE CD – 29 SESIÓN ORDINARIA Y BALANCE | `2026-05-07__cd-acta__p101-s029.pdf` | https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/06/PERIODO-101°de-COMISION-DIRECTIVA.pdf |  |

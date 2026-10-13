@@ -1,14 +1,40 @@
 {
   "site": "https://www.ferrocarriloeste.org.ar",
   "category_id": 62,
-  "count": 121,
+  "count": 123,
   "extensions": {
     ".docx": 1,
     ".jpeg": 7,
     ".jpg": 4,
-    ".pdf": 109
+    ".pdf": 111
   },
   "records": [
+    {
+      "post_id": null,
+      "post_date": "2026-10-08",
+      "event_date": "2026-10-06",
+      "title": "PERIODO 102° DE CD – 1° SESION ORDINARIA",
+      "slug": "periodo-102-de-cd-1-sesion-ordinaria",
+      "post_url": "https://www.ferrocarriloeste.org.ar/actas/periodo-102-de-cd-1-sesion-ordinaria/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/10/Acta-de-CD-2026-10-06-1%C2%B0-sesion_firmada.pdf",
+      "local_file": "2026-10-06__cd-acta__p102-s001.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 1",
+      "note": "Primera sesión ordinaria del período 102, celebrada el 06/10/2026. El PDF tiene capa de texto extraíble legible."
+    },
+    {
+      "post_id": null,
+      "post_date": "2026-10-07",
+      "event_date": "2026-09-18",
+      "title": "PERIODO 101° DE CD – 33° SESION ORDINARIA",
+      "slug": "periodo-101-de-cd-33-sesion-ordinaria",
+      "post_url": "https://www.ferrocarriloeste.org.ar/actas/periodo-101-de-cd-33-sesion-ordinaria/",
+      "source_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/10/Acta-comision-directiva-Septiembre-.pdf",
+      "local_file": "2026-09-18__cd-acta__p101-s033.pdf",
+      "kind": "cd-acta",
+      "reference": "Sesion 33",
+      "note": "Sesión celebrada el 18/09/2026. PDF escaneado de 4 páginas, sin capa de texto extraíble; inspección visual: contenido legible."
+    },
     {
       "post_id": 39495,
       "post_date": "2026-09-03",

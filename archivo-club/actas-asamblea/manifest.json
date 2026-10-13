@@ -5,8 +5,21 @@
     "asamblea",
     "memoria y balance"
   ],
-  "count": 23,
+  "count": 24,
   "records": [
+    {
+      "post_id": null,
+      "post_date": "2026-10-06",
+      "event_date": "2026-09-27",
+      "title": "ASAMBLEA ORDINARIA 2026",
+      "slug": "asamblea-ordinaria-2026",
+      "post_url": "https://www.ferrocarriloeste.org.ar/actas-asamblea/asamblea-ordinaria-2026/",
+      "pdf_url": "https://www.ferrocarriloeste.org.ar/wp-content/uploads/2026/10/Asamblea-Ordinaria-2026.pdf",
+      "local_file": "2026-09-27__asamblea-acta__sep-2026.pdf",
+      "kind": "asamblea-acta",
+      "reference": "septiembre 2026",
+      "note": "Asamblea celebrada el 27/09/2026. El PDF es un escaneo de 16 páginas sin capa de texto extraíble; inspección visual confirma páginas legibles. Incluye el tratamiento del balance del Ejercicio 122 (2025/2026) y el cierre del ciclo institucional/electoral."
+    },
     {
       "post_id": null,
       "post_date": null,
