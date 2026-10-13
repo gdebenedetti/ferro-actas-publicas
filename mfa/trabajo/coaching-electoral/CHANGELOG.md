@@ -1,5 +1,12 @@
 # Changelog del research electoral
 
+## [v0.16.0] — 2026-10-12
+
+### Corregido
+
+- El importador y la auditoría del padrón 2025 prueban que el XLSX fuente incluía `Voto en 2023`; los valores individuales no están en el repositorio porque el libro original no se conserva y la proyección los omitió.
+- Las 21 horas posteriores a las 19:00 corresponden, según aclaración del usuario, a votos emitidos antes del cierre y cargados después. Se consideran válidos; el campo registra carga, no emisión.
+
 ## [v0.15.0] — 2026-10-12
 
 ### Agregado
@@ -23,8 +30,8 @@
 ### Precauciones
 
 - El cruce confirma 3.244 registros por número de socio; 130 quedan para revisión por coincidencia nominal única y 18 por ambigüedad de nombres.
-- El proyecto no conserva una fuente de asistencia efectiva 2023: la columna local `padron_2023_habilitado` acredita habilitación, no que la persona haya votado.
-- El horario simulado de 09:00–19:00 no se toma como constancia del horario oficial de cierre; se señalan las marcas posteriores a las 19:00 para revisión.
+- El artefacto de padrón 2025 omitió `Voto en 2023`; el dato no puede recuperarse por socio sin el XLSX fuente.
+- Las marcas horarias son horas de registro/carga y no necesariamente de emisión.
 
 ## [v0.13.0] — 2026-09-25
 

@@ -2,7 +2,7 @@
 
 Documento interno de preparación. Inicio: 6 de septiembre de 2026.
 
-Versión vigente: **v0.15.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
+Versión vigente: **v0.16.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.md](CHANGELOG.md) para alcance y trazabilidad.
 
 ## Encuadre recibido
 
@@ -26,7 +26,7 @@ Versión vigente: **v0.15.0**. Consultar [VERSION.md](VERSION.md) y [CHANGELOG.m
 - [Entrevista a Pedro Masó en Solo x Deporte — 23 de julio](2026-09-17__entrevista-pedro-maso-soloxdeporte.md): ejes públicos de MFA, renovación, fútbol integral, participación, cifras electorales y preguntas derivadas.
 - [FerroWeb / Hablemos de Ferro PGM 216 — 14 de septiembre](2026-09-17__ferroweb-hablemos-de-ferro-pgm216.md): bloque electoral con Esteban de Somos Ferro, Santiago Alfis de MFA y Fabián Lértora de Identidad Verdolaga; subtítulos localizados, cifras y pasajes jurídicos pendientes de validación.
 - [Debate presidencial FerroWeb — 24/25 de septiembre](2026-09-25__debate-presidencial-ferro-web__analisis.md): subtítulos automáticos originales, identificación de hosts, candidatos, voz de producción, publicidad y cortes técnicos; análisis imparcial y lectura específica de MFA.
-- [Análisis del registro de votación — 27 de septiembre](2026-10-12__analisis-resultados-votacion-2026.md): recuento por mesa, cruce histórico 2020–2026, comparación con la propuesta de cortes alfabéticos y límites para el dato de asistencia 2023.
+- [Análisis del registro de votación — 27 de septiembre](2026-10-12__analisis-resultados-votacion-2026.md): recuento por mesa, cruce histórico 2020–2026, comparación con la propuesta de cortes alfabéticos, existencia de la columna fuente `Voto en 2023` y ausencia de sus valores en los artefactos conservados.
 - Procesamiento reproducible: [analizar-votacion-2026.py](scripts/analizar-votacion-2026.py). La base nominal aumentada y los casos pendientes se generan en el directorio privado ignorado del subproyecto del padrón.
 - [Repaso del proyecto y repositorios para coaching — 6 de septiembre](2026-09-06__repaso-documental-para-coaching.md): inventario, hallazgos, preguntas difíciles y pendientes.
 - Primera entrevista recibida: [Patricio Baigorrotegui / Somos Ferro](https://www.youtube.com/watch?v=Nzy0HYZuvV8), publicada por ferrocarriloeste.com.ar. Se consultaron subtítulos automáticos en este hilo; la fecha de publicación y los pasajes críticos siguen pendientes de validación. La lectura anterior del hilo es preliminar.
