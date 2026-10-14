@@ -1,63 +1,38 @@
 # Resumen de la notebook
 
-NotebookLM: `Ferro Actas Publicas` (`a44c97a9-d538-4de7-8915-c728b2f7774b`).
+NotebookLM `Ferro Actas Publicas` reúne documentos públicos de Ferrocarril Oeste para consultar y contrastar actas de Comisión Directiva, actas de asambleas, balances, convocatorias, el estatuto y materiales de referencia.
 
-Esta notebook reúne fuentes publicas de Ferrocarril Oeste de los ultimos años para consultar, comparar y verificar actas, balances, convocatorias, el estatuto del club y materiales vinculados.
+## Cómo está organizado
 
-La idea es que funcione como un punto de acceso a la informacion historica: se suben los documentos originales y los indices para poder responder preguntas con contexto y citas.
+- `Comisión Directiva - Actas`: actas de CD; algunas sesiones incluyen balances o anexos financieros, pero siguen siendo actas ordinarias.
+- `Asamblea - Actas`: actas de asambleas ordinarias y extraordinarias.
+- `Asamblea - Balances`: memorias y balances, identificados también por ejercicio.
+- `Estatuto`: estatuto del club.
+- `Soporte - Indices y notas`: inventarios cronológicos, resumen y mapa de consolidaciones.
 
-## Metadata actual
+Estas son las cinco etiquetas que devuelve el CLI al 13/10/2026. No aparecen actualmente etiquetas `Asamblea - Convocatorias` ni `Documentación General`; no se recrean como parte de esta actualización.
 
-- Etiquetas activas:
-  - `Asamblea - Actas`
-  - `Asamblea - Balances`
-  - `Asamblea - Convocatorias`
-  - `Asamblea - Tutoriales`
-  - `CD - Actas`
-  - `Soporte - Indices y notas`
-  - `Documentación General`
-- Criterio aplicado:
-  - En Asamblea, usar `ej###` cuando el acta nombra el ejercicio; si no lo nombra de forma explicita, conservar una referencia por fecha.
-  - En Comision Directiva, conservar el esquema `p###/s###` propio del archivo.
-  - Los indices y notas viven fuera de las etiquetas de actas.
-  - El estatuto del club se toma desde el PDF publico [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) y se trata como `Documentación General`.
-- Estado del proceso:
-  - `Asamblea - Actas` y `CD - Actas` quedaron normalizadas en NotebookLM.
-  - `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
-  - Las sesiones `2026-05-07__cd-acta__p101-s029`, `2026-06-11__cd-acta__p101-s030` y `2026-07-30__cd-acta__p101-s031` ya están cargadas en la notebook; no deben agregarse copias duplicadas.
-  - La notebook ya es util para consultas generales, pero la metadata ampliada por documento sigue siendo parcial.
+## Criterio de nombres y fechas
 
-## Convencion de ejercicios
+Las fuentes documentales usan primero la fecha del evento o cierre que el documento acredita, con el patrón `AAAA-MM-DD__tipo__referencia`. La fecha de publicación o escaneo puede ser posterior y se conserva como dato distinto cuando es relevante. Las referencias de ejercicios se expresan como `E### (AAAA/AAAA)`, por ejemplo `E119 (2022/2023)`. Las fuentes sin una fecha documental pertinente, como el estatuto, mantienen un título descriptivo.
 
-- Cuando un documento menciona un `Ejercicio`, se interpreta como un periodo de dos anos y se normaliza como `E### (AAAA/AAAA)`.
-- Ejemplo: `Ejercicio 119` = `E119 (2022/2023)`.
-- Para balances y memorias, conviene buscar siempre tambien por la fecha de cierre visible en el documento.
+## Fuentes consolidadas
 
-## Que permite consultar
+Algunas fuentes multipartes o históricas se agruparon en PDFs para ahorrar capacidad sin perder las páginas originales. Cada PDF consolidado comienza con una guía de contenido y rangos de páginas. El archivo `source-map.md` identifica cada fuente reemplazada, su orden y sus páginas; los índices, en cambio, describen el inventario local de originales. Los bundles preservan imágenes y texto embebido; no se aplicó OCR nuevo. Las fusiones no implican validar cifras contables: para números, nombres o citas literales, contrastar las páginas originales.
 
-- la ultima acta o balance disponible;
-- una sesion, asamblea o convocatoria concreta;
-- documentos que estan divididos en partes;
-- diferencias entre la fecha del archivo, la fecha visible dentro del documento y la fecha de publicacion;
-- si un nombre de archivo coincide o no con lo que muestra el PDF o DOCX;
-- el estatuto del club como marco normativo general;
-- relaciones entre actas, balances y convocatorias del mismo periodo.
+## Consultas posibles
 
-## Como usarla
+- ¿Qué fecha de sesión aparece dentro del acta P101-S019 y cuándo se publicó?
+- ¿Qué temas trata una sesión de Comisión Directiva que también incluye un balance mensual?
+- ¿Qué documentos corresponden a E119 (2022/2023) y en qué orden aparecen en el consolidado?
+- ¿Qué resolvió una asamblea y qué balance o ejercicio se presentó?
+- ¿Qué personas aparecen y con qué cargos o condición de socio, indicando página y fuente?
+- ¿Qué diferencias hay entre el inventario de originales y las fuentes consolidadas de la notebook?
 
-- preguntando por fecha, sesion, periodo o tipo de documento;
-- pidiendo comparaciones entre archivos;
-- pidiendo que confirme datos visibles dentro del documento;
-- usando los indices como guia para ubicar la fuente correcta antes de leer el original.
+## Capacidad al corte
 
-## Ejemplos de preguntas
+Al 13/10/2026 hay 76 fuentes activas de un máximo de 100 en el plan Plus: 24 lugares disponibles. Entre ellas hay 16 PDFs consolidados (siete agrupaciones históricas y nueve fusiones multipartes). El conteo puede cambiar si se agregan o eliminan fuentes.
 
-- "Cual es la ultima acta de Comision Directiva y que dice la primera pagina?"
-- "Que balance corresponde a la asamblea de septiembre de 2025?"
-- "Este archivo parece escaneado: la fecha del nombre coincide con la fecha visible?"
-- "Que documentos estan vinculados a la sesion 26 del periodo 101?"
-- "Hay algun documento dividido en varias partes o con nombre inconsistente?"
+## Límites de lectura
 
-## Regla practica
-
-Si el documento original, el nombre del archivo y el indice no coinciden del todo, conviene conservar la diferencia como observacion en vez de forzar una sola fecha.
+NotebookLM sirve para localizar y relacionar información. En documentos escaneados, la extracción de texto puede ser incompleta; no tomar transcripciones o cifras recuperadas automáticamente como verificación contable. Pedir citas y páginas y comprobar los valores directamente en el PDF cuando su exactitud importe.

@@ -7,15 +7,19 @@ Cuando un documento habla de `Ejercicio`, se normaliza como `E### (AAAA/AAAA)`. 
 ## Estado actual
 
 - La notebook `Ferro Actas Publicas` ya tiene cargadas y etiquetadas las fuentes principales.
-- `Asamblea - Actas` y `CD - Actas` quedaron limpias; los indices quedaron en `Soporte - Indices y notas`.
-- `CD - Balances` ya no existe como etiqueta separada; las sesiones ordinarias con balance incluido quedaron dentro de `CD - Actas`.
+- Al corte del 13/10/2026, el CLI devuelve las etiquetas `Comisión Directiva - Actas`, `Asamblea - Actas`, `Asamblea - Balances`, `Estatuto` y `Soporte - Indices y notas`. No aparecen etiquetas separadas de convocatorias ni de documentación general.
+- Las sesiones ordinarias de CD que incluyen balances mensuales se clasifican como actas en `Comisión Directiva - Actas`; no se separan por contener datos financieros.
+- Hay 16 PDFs consolidados: siete agrupaciones históricas y nueve fusiones de documentos multipartes. El inventario original y los rangos de páginas están en `../notebooklm-derivados/source-map.md`.
+- En los nombres, la fecha es la del evento o cierre que consta en el documento, no la de publicación o escaneo. Para S019 la sesión es del 26/06/2025 y la publicación de las imágenes fue el 04/08/2025.
 - Las fuentes `2026-05-07__cd-acta__p101-s029`, `2026-06-11__cd-acta__p101-s030` y `2026-07-30__cd-acta__p101-s031` ya están cargadas en NotebookLM con el mismo esquema de nombres del archivo local. No hace falta duplicarlas.
-- El estatuto del club quedó cargado desde el PDF público [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) como fuente de `Documentación General`.
+- El estatuto del club quedó cargado desde el PDF público [`Estatuto.pdf`](https://www.ferrocarriloeste.org.ar/wp-content/uploads/2018/07/Estatuto.pdf) bajo la etiqueta `Estatuto`.
 - Este archivo solo documenta una parte de las fuentes ya verificadas.
 - Pendiente: seguir agregando fichas y metadata ampliada para el resto de las actas, balances y documentos de apoyo.
 
 ## Corte actual
 
+- Fuentes activas en NotebookLM: 76 de 100; quedan 24 espacios disponibles al 13/10/2026.
+- PDFs consolidados activos: 16; el mapa en `../notebooklm-derivados/source-map.md` documenta las fuentes originales, secuencia y páginas.
 - Fichas detalladas creadas: 6.
 - Fuentes ya fichadas:
   - `2025-12-26 CD P101-S025`
